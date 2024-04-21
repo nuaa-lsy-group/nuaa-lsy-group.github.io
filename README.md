@@ -1,5 +1,9 @@
 # 2024年春季学期
 
+**2024.4.21**
+- 郑宇祥：Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks[[slide](./assets/slides/2024.4.21组会%20郑宇祥.pdf)][[paper](./assets/papers/Understanding%20and%20Mitigating%20the%20Label%20Noise%20in%20Pre-training%20on%20Downstream%20Tasks.pdf)]
+- 赵世佶：PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization[[slide](./assets/slides/2024.4.21组会%20赵世佶.pdf)][[paper](./assets/papers/PromptStyler%20Prompt-driven%20Style%20Generation%20for%20S.pdf)]
+
 **2024.3.22**
 - 万文海：Long-Tailed Recognition via Weight Balancing[[slide](./assets/slides/2024.3.22组会%20万文海.pdf)][[paper](./assets/papers/Long-Tailed_Recognition_via_Weight_Balancing_CVPR_2022_paper.pdf)]
 
