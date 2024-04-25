@@ -1,4 +1,7 @@
 # 2024年春季学期
+**2024.4.25**
+- 陶子健：No Fear of Classifier Biases: Neural Collapse Inspired Federated Learning with Synthetic and Fixed Classifier[[slide](./assets/slides/2024.4.25组会%20陶子健.pdf)][[paper](./assets/papers/No%20Fear%20of%20Classifier%20Biases-Neural%20Collapse%20Inspired%20Federated%20Learning%20with%20Synthetic%20and%20Fixed%20Classifier-iccv2023.pdf)]
+- 郑金鹏：ProMix: Combating Label Noise via Maximizing Clean Sample Utility[[slide](./assets/slides/2024.4.25组会%20郑金鹏.pdf)][[paper](./assets/papers/ProMix%20Combating%20Label%20Noise%20via%20Maximizing%20Clean.pdf)]
 
 **2024.4.21**
 - 郑宇祥：Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks[[slide](./assets/slides/2024.4.21组会%20郑宇祥.pdf)][[paper](./assets/papers/Understanding%20and%20Mitigating%20the%20Label%20Noise%20in%20Pre-training%20on%20Downstream%20Tasks.pdf)]
