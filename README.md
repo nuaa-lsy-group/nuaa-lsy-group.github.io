@@ -1,5 +1,8 @@
 # 2024年春季学期
 
+## 2024.5.16
+-万文海：Exploring_and_Utilizing_Pattern_Imbalance[[slide](,.assets/slides/2024.5.16组会%20万文海.pdf)][[paper](./assets/papers/Exploring_and_Utilizing_Pattern_Imbalance.pdf)]
+
 ## 2024.5.11
 
 - 赵世佶：Towards Real-World Test-Time Adaptation: Tri-Net Self-Training with 
