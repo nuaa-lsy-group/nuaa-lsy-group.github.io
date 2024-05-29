@@ -1,12 +1,15 @@
 # 2024年春季学期
 
 ## 2024.5.16
--万文海：Exploring_and_Utilizing_Pattern_Imbalance[[slide](./assets/slides/2024.5.16组会%20万文海.pdf)][[paper](./assets/papers/Exploring_and_Utilizing_Pattern_Imbalance.pdf)]
+- 万文海：Exploring and Utilizing Pattern Imbalance[[slide](./assets/slides/2024.5.16组会%20万文海.pdf)][[paper](./assets/papers/Exploring_and_Utilizing_Pattern_Imbalance.pdf)]
+
+>相似论文：[Subclass-balancing Contrastive Learning for Long-tailed Recognition](./assets/papers/Hou_Subclass-balancing_Contrastive_Learning_for_Long-tailed_Recognition_ICCV_2023_paper.pdf)
+共性：从子类角度出发
+简介：介绍了用于长尾识别的子类平衡对比学习（SBCL）。它通过子类平衡自适应聚类将头部类分解为多个语义一致的子类，并结合了一种双粒度对比损失，以促进子类和实例的平衡。在多个数据集上的大量实验表明，SBCL在长尾识别的基准数据集上实现了最先进的单模型性能。
 
 ## 2024.5.11
 
-- 赵世佶：Towards Real-World Test-Time Adaptation: Tri-Net Self-Training with 
-Balanced Normalization[[slide](./assets/slides/2024.5.11组会%20赵世佶.pdf)][[paper](./assets/papers/Towards%20Real-World%20Test-Time%20Adaptation%20Tri-Net%20Self-Training%20with%20Balanced%20Normalization.pdf)]
+- 赵世佶：Towards Real-World Test-Time Adaptation: Tri-Net Self-Training with Balanced Normalization[[slide](./assets/slides/2024.5.11组会%20赵世佶.pdf)][[paper](./assets/papers/Towards%20Real-World%20Test-Time%20Adaptation%20Tri-Net%20Self-Training%20with%20Balanced%20Normalization.pdf)]
 
 ## 2024.4.25
 
