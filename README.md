@@ -1,5 +1,8 @@
 # 2024年春季学期
 
+## 2024.5.30
+- 陶子健：General Multi-label Image Classification with Transformers[[slide](./assets/slides/2024.5.30组会%20陶子健.pdf)][[paper](./assets/papers/General%20Multi-label%20Image%20Classification%20with%20Transformers.pdf)]
+
 ## 2024.5.16
 - 万文海：Exploring and Utilizing Pattern Imbalance[[slide](./assets/slides/2024.5.16组会%20万文海.pdf)][[paper](./assets/papers/Exploring_and_Utilizing_Pattern_Imbalance.pdf)]
 
