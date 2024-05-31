@@ -2,6 +2,10 @@
 
 ## 2024.5.30
 - 陶子健：General Multi-label Image Classification with Transformers[[slide](./assets/slides/2024.5.30组会%20陶子健.pdf)][[paper](./assets/papers/General%20Multi-label%20Image%20Classification%20with%20Transformers.pdf)]
+> 采用了随机掩码策略，将label embedding添加state embedding，包括positive、negative、unknown，将label embedding和feature embedding同时放入transformer中
+> 相似论文：[Language-Guided Transformer for Federated Multi-Label Classification](./assets/papers/Language-Guided%20Transformer%20for%20Federated%20Multi-Label%20Classification.pdf)，它将随机掩码
+替换成将global modal在local model上预测的不自信的label进行掩码，加强对不确定的label的学习
+
 
 ## 2024.5.16
 - 万文海：Exploring and Utilizing Pattern Imbalance[[slide](./assets/slides/2024.5.16组会%20万文海.pdf)][[paper](./assets/papers/Exploring_and_Utilizing_Pattern_Imbalance.pdf)]
