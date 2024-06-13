@@ -1,7 +1,7 @@
 # 2024年春季学期
 ## 6.13
-- 万文海：Online Knowledge Distillation with Diverse Peers[[slide](./assets/slides/2024.6.13组会%20万文海.pdf)][[paper](https://arxiv.org/pdf/1912.00350)]
-
+- 万文海：Online Knowledge Distillation[[slide](./assets/slides/2024.6.13组会%20万文海.pdf)][[paper1](https://arxiv.org/pdf/1912.00350)][[paper2](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Online_Knowledge_Distillation_via_Collaborative_Learning_CVPR_2020_paper.pdf)]
+> 
 ## 6.6
 - 郑宇翔：Loss Decoupling for Task-Agnostic Continual Learning[[slide](./assets/slides/2024.6.6组会%20郑宇祥.pdf)][[paper](./assets/papers/Loss%20Decoupling%20for%20Task-Agnostic%20Continual%20Learning.pdf)]
 - 郑金鹏：Open-Sampling: Exploring Out-of-Distribution Data for Re-balancing Long-tailed Datasets[[slide](./assets/slides/.3.14组会%20郑金鹏.pdf)][[paper](./assets/papers/Open-Sampling%20Exploring%20Out-of-Distribution%20data%20.pdf)]
