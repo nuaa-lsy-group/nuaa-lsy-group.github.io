@@ -1,6 +1,7 @@
 # 2024年春季学期
 ## 6.20
 - 郑金鹏：Out-of-Distribution Detection in Long-Tailed Recognition with Calibrated Outlier Class Learning[[slide](./assets/slides/2024.6.20组会%20郑金鹏.pdf)][[paper](./assets/papers/Out-of-Distribution%20Detection%20in%20Long-Tailed%20Recog.pdf)]
+
 ## 6.13
 - 万文海：Online Knowledge Distillation[[slide](./assets/slides/2024.6.13组会%20万文海.pdf)][[paper1](https://arxiv.org/pdf/1912.00350)][[paper2](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Online_Knowledge_Distillation_via_Collaborative_Learning_CVPR_2020_paper.pdf)]
 > 介绍了 Online Knowledge Distillation 的两个工作，一篇使用self-attention机制生成target引导学生网络的输出，另一篇提出了四种基于协作学习的target生成方案。此外，讨论了：1）不平衡场景下训练的模型应用于TTA的合理性、可行性；2）将OOD检测应用于长尾多专家的方案尝试
