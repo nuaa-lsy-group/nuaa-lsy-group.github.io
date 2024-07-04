@@ -1,6 +1,6 @@
 # 2024年春季学期
 ## 7.4
-- 万文海：Data Augmentation-Based Long-tailed Learning[[slide](./assets/slides/2024.7.4组会%万文海)][[paper1](https://openreview.net/forum?id=RgUPdudkWlN)][[paper2](https://openreview.net/forum?id=RzY9qQHUXy)]
+- 万文海：Data Augmentation-Based Long-tailed Learning[[slide](./assets/slides/2024.7.4组会%20万文海)][[paper1](https://openreview.net/forum?id=RgUPdudkWlN)][[paper2](https://openreview.net/forum?id=RzY9qQHUXy)]
 > 介绍了long-tailed learning中关于数据增强的两个工作。第一篇发现class-wise augmentation 可以提高 non-augmented classes 的性能，而 augmented classes 的性能可能不会显著提高，基于这一点，分别计算每个类别的 level-of-learning score，并利用该得分来确定增强强度，第二篇提出一种自适应的动态可选数据增强，以解决固有的数据层面的不平衡和外在的增强层面的不平衡，使每个类别在训练期间可以选择适当的增强方法。
 
 ## 6.20
