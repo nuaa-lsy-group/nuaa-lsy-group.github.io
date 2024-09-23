@@ -1,9 +1,5 @@
 # 2024年春季学期
 
-## 9.23
-- 陶子健：Category-Prompt Refined Feature Learning for Long-Tailed Multi-Label Image Classification[[slide](./assets/slides/2024.9.23组会%20陶子健.pdf)][[paper](./assets/papers/Category-Prompt%20Refined%20Feature%20Learning%20for%20Long-Tailed%20Multi-Label%20Image%20Classification-acmmm2024.pdf)]
-
-
 ## 7.19
 - 郑腾鑫陵：Unsupervised Domain Adaptation by Back Propagation & A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts[[slide](./assets/slides/2024.7.18组会%20郑腾鑫陵.pdf)][[paper1](https://arxiv.org/pdf/1409.7495)][[paper2](https://arxiv.org/pdf/2303.15361)]
 
