@@ -1,4 +1,6 @@
 # 2024年秋季学期
+# 2024.9.23
+- 郑金鹏：DeiT-LT: Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Rangwani_DeiT-LT_Distillation_Strikes_Back_for_Vision_Transformer_Training_on_Long-Tailed_CVPR_2024_paper.pdf)][[slides](./assets/slides/2024.9.23组会%20郑金鹏.pdf)]
 # 2024.9.9
 - 卢昕怡： FedCorr Multi-Stage Federated Learning for Label Noise Correction[[paper](./assets/papers/FedCorr_Multi-Stage_Federated_Learning_for_Label_Noise_Correction.pdf)][[slides](./assets/slides/2024.9.9%20卢昕怡.pdf)]
 - 郑腾鑫陵：Continual-MAE Adaptive Distribution Masked Autoencoders for Continual Test-Time Adaptation[[paper](./assets/papers/Continual-MAE_Adaptive_Distribution_Masked_Autoencoders_for_Continual_Test-Time_Adaptation.pdf)][[sides](./assets/slides/2024.9.9%20郑腾鑫陵.pdf)]
