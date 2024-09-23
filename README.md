@@ -1,7 +1,7 @@
 # 2024年秋季学期
 # 2024.9.23
 - 郑金鹏：DeiT-LT: Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Rangwani_DeiT-LT_Distillation_Strikes_Back_for_Vision_Transformer_Training_on_Long-Tailed_CVPR_2024_paper.pdf)][[slides](./assets/slides/2024.9.23组会%20郑金鹏.pdf)]
-- 陶子健：Category-Prompt Refined Feature Learning for Long-Tailed Multi-Label Image Classification[[slide](./assets/slides/2024.9.23组会%20陶子健.pdf)][[paper](./assets/papers/Category-Prompt%20Refined%20Feature%20Learning%20for%20Long-Tailed%20Multi-Label%20Image%20Classification-acmmm2024.pdf)]
+- 陶子健：Category-Prompt Refined Feature Learning for Long-Tailed Multi-Label Image Classification[[paper](./assets/papers/Category-Prompt%20Refined%20Feature%20Learning%20for%20Long-Tailed%20Multi-Label%20Image%20Classification-acmmm2024.pdf)][[slide](./assets/slides/2024.9.23组会%20陶子健.pdf)]
 
 # 2024.9.9
 - 卢昕怡： FedCorr Multi-Stage Federated Learning for Label Noise Correction[[paper](./assets/papers/FedCorr_Multi-Stage_Federated_Learning_for_Label_Noise_Correction.pdf)][[slides](./assets/slides/2024.9.9%20卢昕怡.pdf)]
