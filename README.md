@@ -4,6 +4,8 @@
 
 - 赵世佶：EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self distilled Regularization [[paper](./assets/papers/EcoTTA_Memory-Efficient_Continual_Test-time_Adapt.pdf)] [[slide](./assets/slides/20241021zhaosj.pdf)]
 
+> 介绍了EcoTTA，一篇研究持续TTA过程中如何减少内存消耗，从而能在端侧设备上实现持续适应。文章借鉴了TinyTL、EATA等一系列工作，通过将源模型的encoder分块，并在每一块之间插入专属的元网络(包括一层BN和一个Conv的残差连接)，实现模型激活值内存占用大幅缩减。设计的损失函数包括经典的熵最小化，以及一个子蒸馏的正则项用于防止模型遗忘。
+
 ## 2024.10.14
 
 - 郑腾鑫陵：Continual test-time domain Adaption [[paper](./assets/papers/Continual_test-time_domain_Adaption.pdf)] [[slide](./assets/slides/2024.10.14组会%20郑腾鑫陵.pdf)]
