@@ -5,7 +5,8 @@
 - 赵世佶：EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self distilled Regularization [[paper](./assets/papers/EcoTTA_Memory-Efficient_Continual_Test-time_Adapt.pdf)] [[slide](./assets/slides/20241021zhaosj.pdf)]
 
 > 介绍了EcoTTA，一篇研究持续TTA过程中如何减少内存消耗，从而能在端侧设备上实现持续适应。文章借鉴了TinyTL、EATA等一系列工作，通过将源模型的encoder分块，并在每一块之间插入专属的元网络(包括一层BN和一个Conv的残差连接)，实现模型激活值内存占用大幅缩减。设计的损失函数包括经典的熵最小化，以及一个子蒸馏的正则项用于防止模型遗忘。
-- 陶子健：Pi-DUAL: Using privileged information to distinguish clean from noisy labels[[paper](./assets/papers/Pi-DUAL%20Using%20privileged%20information%20to%20distinguish%20clean%20from%20noisy%20labels.pdf)] [[slide](./assets/slides/2024.10.21组会%20陶子健.pdf)]
+
+- 陶子健：Pi-DUAL: Using privileged information to distinguish clean from noisy labels [[paper](./assets/papers/Pi-DUAL%20Using%20privileged%20information%20to%20distinguish%20clean%20from%20noisy%20labels.pdf)] [[slide](./assets/slides/2024.10.21组会%20陶子健.pdf)]
 
 ## 2024.10.14
 
