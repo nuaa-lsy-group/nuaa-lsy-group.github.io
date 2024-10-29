@@ -1,5 +1,9 @@
 # 2024年秋季学期
 
+## 2024.10.29
+
+- 卢昕怡：Robust Semi-supervised Learning by wisely leveraging open-set data [[paper](./assets/papers/Robust%20Semi-supervised%20Learning%20by%20wisely%20leveraging%20open-set%20data.pdf)] [[slide](./assets/slides/2024.10.29组会%20卢昕怡.pdf)]
+
 ## 2024.10.21
 
 - 赵世佶：EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self distilled Regularization [[paper](./assets/papers/EcoTTA_Memory-Efficient_Continual_Test-time_Adapt.pdf)] [[slide](./assets/slides/20241021zhaosj.pdf)]
