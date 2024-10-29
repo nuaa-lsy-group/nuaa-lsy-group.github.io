@@ -2,7 +2,7 @@
 
 ## 2024.10.29
 
-- 卢昕怡：Robust Semi-supervised Learning by wisely leveraging open-set data [[paper](./assets/papers/Robust%20Semi-supervised%20Learning%20by%20wisely%20leveraging%20open-set%20data.pdf)] [[slide](./assets/slides/2024.10.29组会%20卢昕怡.pdf)]
+- 卢昕怡：Robust Semi-supervised Learning by wisely leveraging open-set data [[paper](./assets/papers/Robust%20Semi-supervised%20Learning%20by%20wisely%20leveraging%20open-set%20data.pdf)] [[slide](./assets/slides/2024.10.29%20组会%20卢昕怡.pdf)]
 
 ## 2024.10.21
 
