@@ -1,5 +1,9 @@
 # 2024年秋季学期
 
+## 2024.11.6
+  
+- 郑金鹏：AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models[[paper](https://arxiv.org/abs/2308.15366)][[slides](./assets/slides/2024.11.7郑金鹏.pdf)]
+
 ## 2024.10.29
 
 - 卢昕怡：Robust Semi-supervised Learning by wisely leveraging open-set data [[paper](./assets/papers/Robust%20Semi-supervised%20Learning%20by%20wisely%20leveraging%20open-set%20data.pdf)] [[slide](./assets/slides/2024.10.29%20组会%20卢昕怡.pdf)]
