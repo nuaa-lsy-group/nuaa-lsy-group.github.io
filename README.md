@@ -1,5 +1,11 @@
 # 2024年秋季学期
 
+## 2024.11.12
+
+- 赵世佶：Self-supervised Learning for Large-scale Item Recommendations & Deep Interest Network for Click-Through Rate Prediction [[paper1](./assets/papers/Deep%20Interest%20Network%20for%20Click-Through%20Rate%20Predion.pdf)] [[paper2](./assets/papers/Self-supervised%20Learning%20for%20Large-scale%20Item%20Recommendations.pdf)] [[slide](./assets/slides/20241112-zhaosj.pdf)]
+
+> 简要介绍了推荐系统的基础架构：召回->粗排->精排->重排，然后分别展示了召回和精排的两个经典模型。谷歌在召回双塔模型的基础上引入对比学习扩充了样本量，解决了长尾表征的问题。阿里利用attention对用户序列建模，设计了DIN。
+
 ## 2024.11.6
   
 - 郑金鹏：AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models[[paper](https://arxiv.org/abs/2308.15366)][[slides](./assets/slides/2024.11.7郑金鹏.pdf)]
@@ -10,7 +16,7 @@
 
 ## 2024.10.21
 
-- 赵世佶：EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self distilled Regularization [[paper](./assets/papers/EcoTTA_Memory-Efficient_Continual_Test-time_Adapt.pdf)] [[slide](./assets/slides/20241021zhaosj.pdf)]
+- 赵世佶：EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self distilled Regularization [[paper](./assets/papers/EcoTTA_Memory-Efficient_Continual_Test-time_Adapt.pdf)] [[slide](./assets/slides/20241021-zhaosj.pdf)]
 
 > 介绍了EcoTTA，一篇研究持续TTA过程中如何减少内存消耗，从而能在端侧设备上实现持续适应。文章借鉴了TinyTL、EATA等一系列工作，通过将源模型的encoder分块，并在每一块之间插入专属的元网络(包括一层BN和一个Conv的残差连接)，实现模型激活值内存占用大幅缩减。设计的损失函数包括经典的熵最小化，以及一个子蒸馏的正则项用于防止模型遗忘。
 
