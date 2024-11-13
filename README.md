@@ -6,13 +6,16 @@
 
 > 简要介绍了推荐系统的基础架构：召回->粗排->精排->重排，然后分别展示了召回和精排的两个经典模型。谷歌在召回双塔模型的基础上引入对比学习扩充了样本量，解决了长尾表征的问题。阿里利用attention对用户序列建模，设计了DIN。
 
+- 郑宇祥：Learning Equi-angular Representations for Online Continual Learning[[paper](https://arxiv.org/abs/2404.01628)][[slides](./assets/slides/20241112-zyx.pdf)]
+
 ## 2024.11.6
-  
+
 - 郑金鹏：AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models[[paper](https://arxiv.org/abs/2308.15366)][[slides](./assets/slides/2024.11.7郑金鹏.pdf)]
 
 ## 2024.10.29
 
 - 卢昕怡：Robust Semi-supervised Learning by wisely leveraging open-set data [[paper](./assets/papers/Robust%20Semi-supervised%20Learning%20by%20wisely%20leveraging%20open-set%20data.pdf)] [[slide](./assets/slides/2024.10.29%20组会%20卢昕怡.pdf)]
+- 郑宇祥：Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss[[paper](https://arxiv.org/abs/2410.17243)][[slides](./assets/slides20241029-zyx.pdf)]
 
 ## 2024.10.21
 
