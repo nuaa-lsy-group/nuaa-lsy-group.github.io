@@ -2,7 +2,8 @@
 
 ## 2024.11.19
 - 卢昕怡：Towards Unbiased Training in Federated Open-world Semi-supervised Learning [[paper](./assets/papers/Towards%20Unbiased%20Training%20in%20Federated%20Open-world%20Semi-supervised%20Learning.pdf)] [[slide](./assets/slides/2024.11.19组会%20卢昕怡.pdf)]
-
+- 郑腾鑫陵：A Versatile Framework for Continual Test-Time Domain Adaptation: Balancing  Discriminability and Generalizability
+[[paper](./assets/papers/A%20Versatile%20Framework%20for%20Continual%20Test-Time%20Domain%20Adaptation%20Balancing%20Discriminability%20and%20Gene.pdf)][[silde](./assets/slides/2024.11.19组会%20郑腾鑫陵.pdf)]
 ## 2024.11.12
 
 - 赵世佶：Self-supervised Learning for Large-scale Item Recommendations & Deep Interest Network for Click-Through Rate Prediction [[paper1](./assets/papers/Deep%20Interest%20Network%20for%20Click-Through%20Rate%20Predion.pdf)] [[paper2](./assets/papers/Self-supervised%20Learning%20for%20Large-scale%20Item%20Recommendations.pdf)] [[slide](./assets/slides/20241112-zhaosj.pdf)]
