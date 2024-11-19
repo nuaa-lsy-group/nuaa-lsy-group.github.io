@@ -1,7 +1,7 @@
 # 2024年秋季学期
 
 ## 2024.11.19
-- 卢昕怡：Towards Unbiased Training in Federated Open-world Semi-supervised Learning [[paper](./assets/papers/Towards%Unbiased%Training%in%Federated%Open-world%Semi-supervised%Learning.pdf)] [[slide](./assets/slides/2024.11.19组会%卢昕怡.pdf)]
+- 卢昕怡：Towards Unbiased Training in Federated Open-world Semi-supervised Learning [[paper](./assets/papers/Towards%20Unbiased%20Training%20in%20Federated%20Open-world%20Semi-supervised%20Learning.pdf)] [[slide](./assets/slides/2024.11.19组会%20卢昕怡.pdf)]
 
 ## 2024.11.12
 
