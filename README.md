@@ -1,5 +1,8 @@
 # 2024年秋季学期
 
+## 2024.11.19
+- 卢昕怡：Towards Unbiased Training in Federated Open-world Semi-supervised Learning [[paper](./assets/papers/Towards%Unbiased%Training%in%Federated%Open-world%Semi-supervised%Learning.pdf)] [[slide](./assets/slides/2024.11.19组会%卢昕怡.pdf)]
+
 ## 2024.11.12
 
 - 赵世佶：Self-supervised Learning for Large-scale Item Recommendations & Deep Interest Network for Click-Through Rate Prediction [[paper1](./assets/papers/Deep%20Interest%20Network%20for%20Click-Through%20Rate%20Predion.pdf)] [[paper2](./assets/papers/Self-supervised%20Learning%20for%20Large-scale%20Item%20Recommendations.pdf)] [[slide](./assets/slides/20241112-zhaosj.pdf)]
