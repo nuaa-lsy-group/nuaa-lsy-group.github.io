@@ -1,5 +1,7 @@
 # 2024年秋季学期
-
+## 2024.11.26
+- 陶子健：
+- 郑金鹏：GLAD: Towards Better Reconstruction with  Global and Local Adaptive Diffusion Models for  Unsupervised Anomaly Detection[[paper](./assets/papers/GLAD%20Towards%20Better%20Reconstruction%20with%20Global%20and%20Local%20Adaptive%20Diffusion%20Models%20for%20Unsupervised.pdf)][[slides](./assets/slides/2024.11.26-郑金鹏.pdf)]
 ## 2024.11.19
 - 卢昕怡：Towards Unbiased Training in Federated Open-world Semi-supervised Learning [[paper](./assets/papers/Towards%20Unbiased%20Training%20in%20Federated%20Open-world%20Semi-supervised%20Learning.pdf)] [[slide](./assets/slides/2024.11.19组会%20卢昕怡.pdf)]
 - 郑腾鑫陵：A Versatile Framework for Continual Test-Time Domain Adaptation: Balancing  Discriminability and Generalizability
