@@ -2,7 +2,7 @@
 
 ## 2024.11.26
 
-- 陶子健： Towards Calibrated Multi-label Deep Neural Networks[[paper](./assets/papers/Towards_Calibrated_Multi-Label_Deep_Neural_Networks.pdf)][[slides](./assets/slides/2024.11.25组会 陶子健.pdf)]
+- 陶子健： Towards Calibrated Multi-label Deep Neural Networks[[paper](./assets/papers/Towards_Calibrated_Multi-Label_Deep_Neural_Networks.pdf)][[slides](./assets/slides/2024.11.25组会%20陶子健.pdf)]
 
 - 郑金鹏：GLAD: Towards Better Reconstruction with  Global and Local Adaptive Diffusion Models for  Unsupervised Anomaly Detection[[paper](./assets/papers/GLAD%20Towards%20Better%20Reconstruction%20with%20Global%20and%20Local%20Adaptive%20Diffusion%20Models%20for%20Unsupervised.pdf)][[slides](./assets/slides/2024.11.26-郑金鹏.pdf)]
 
