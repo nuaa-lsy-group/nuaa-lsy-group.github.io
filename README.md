@@ -2,7 +2,7 @@
 
 ## 2024.12.3
 
-- 赵世佶：Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation & Dataset Condensation with Gradient Matching [[paper1](./assets/papers/Decorate%20the%20Newcomers%20Visual%20Domain%20Prompt%20for%20C.pdf)] [[paper2](./assets/papers/Dataset%20Condensation%20with%20Gradient%20Matching.pdf)] [[slide](./assets/slides/20241203-zhaosj.pptx)]
+- 赵世佶：Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation & Dataset Condensation with Gradient Matching [[paper1](./assets/papers/Decorate%20the%20Newcomers%20Visual%20Domain%20Prompt%20for%20C.pdf)] [[paper2](./assets/papers/Dataset%20Condensation%20with%20Gradient%20Matching.pdf)] [[slide](./assets/slides/20241203-zhaosj.pdf)]
 
 > 第一篇文章做的是持续TTA的设定。文章通过直接在图像像素层面构造矩形prompt作为可变参数，并和输入图像聚合送入冻结的模型中得到输出。作者设计了两种prompt，一个用教师-学生网络，通过交叉熵更新学习域知识；另一个多了一项正则限制域敏感参数的更新以保证域泛化知识保留。第二篇是数据集蒸馏的经典论文，通过课程梯度匹配的方式实现数据集蒸馏。
 
