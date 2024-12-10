@@ -1,5 +1,9 @@
 # 2024年秋季学期
 
+## 2024.12.10
+- 郑腾鑫陵：Efficient Test-Time Adaptation of Vision-Language Models & WATT: Weight Average Test-Time Adaptation of CLIP[[paper1](./assets/papers/Efficient%20Test-Time%20Adaptation%20of%20Vision-Language%20Models.pdf)[[paper2](./assets/papers/WATT%20Weight%20Average%20Test-Time%20Adaptation%20of%20CLIP.pdf)][[slide](./assets/slides/2024.12.10组会&郑腾鑫陵.pdf)]
+>第一篇文章使用CLIP为backbone，不调节CLIP参数，设计positive和negative队列作为缓存模型，减少时间开销。第二篇使用CLIP为backbone，根据text template 调整CLIP参数，验证不同text template的影响。
+
 ## 2024.12.3
 
 - 赵世佶：Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation & Dataset Condensation with Gradient Matching [[paper1](./assets/papers/Decorate%20the%20Newcomers%20Visual%20Domain%20Prompt%20for%20C.pdf)] [[paper2](./assets/papers/Dataset%20Condensation%20with%20Gradient%20Matching.pdf)] [[slide](./assets/slides/20241203-zhaosj.pdf)]
