@@ -1,4 +1,6 @@
 # 2024年秋季学期
+## 2024.12.17
+- 郑金鹏：CLIPCleaner Cleaning Noisy Labels with CLIP[[paper](https://dl.acm.org/doi/10.1145/3664647.3680664)][[slides](./assets/slides/20241217-zjp.pdf)]
 
 ## 2024.12.10
 - 郑腾鑫陵：Efficient Test-Time Adaptation of Vision-Language Models & WATT: Weight Average Test-Time Adaptation of CLIP[[paper1](./assets/papers/Efficient%20Test-Time%20Adaptation%20of%20Vision-Language%20Models.pdf)[[paper2](./assets/papers/WATT%20Weight%20Average%20Test-Time%20Adaptation%20of%20CLIP.pdf)][[slide](./assets/slides/2024.12.10组会&郑腾鑫陵.pdf)]
