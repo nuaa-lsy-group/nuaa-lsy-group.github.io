@@ -1,5 +1,5 @@
 # 2025春季学期
-## 225.4.9
+## 2025.4.9
 - 郑腾鑫陵 Discovering and Mitigating Visual Biases through Keyword Explanation[[paper](./assets/papers/Discovering%20and%20Mitigating%20Visual%20Biases%20through%20Keyword%20Explanation.pdf)][[slides](./assets/slides/20250409-zhengtxl.pdf)]
 ## 2025.3.19
 - 郑腾鑫陵：AMU-Tuning Effective Logit Bias for CLIP-based Few-shot Learning [[paper](./assets/papers/AMU-Tuning%20Effective%20Logit%20Bias%20for%20CLIP-based%20Few-shot%20Learning.pdf)][[slides](./assets/slides/2025.3.19组会%20郑腾鑫陵.pdf)]
