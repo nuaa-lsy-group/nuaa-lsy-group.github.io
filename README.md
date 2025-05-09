@@ -1,4 +1,6 @@
 # 2025春季学期
+## 2025.5.7
+- 蒋明忠：Efficient Test-Time Adaptation of Vision-Language Models[[paper]]() [[slides]](./assets/slides/2025.5.7组会-蒋明忠.pdf)
 ## 2025.4.16
 - 郑金鹏：
   - [[Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts]](https://github.com/shijxcs/LIFT)
