@@ -1,4 +1,7 @@
 # 2025春季学期
+## 2025.5.15
+- 卢昕怡 Harmonizing Generalization and Personalization in Federated Prompt Learning[[paper](./assets/papers/Harmonizing%20Generalization%20and%20Personalization%20in%20federated%20prompt%20learning.pdf)][[slides](./assets/slides/2025.05.15组会%20卢昕怡.pdf)]
+
 ## 2025.5.7
 - 蒋明忠：Efficient Test-Time Adaptation of Vision-Language Models[[paper]](./assets/papers/VLmodel下游应用-测试时适应-Efficient%20Test-Time%20Adaptation%20of%20Vision-Language%20Models.pdf) [[slides]](./assets/slides/2025.5.7组会-蒋明忠.pdf)
 - 王子晨：Masked Autoencoders Are Scalable Vision Learners [[paper]](./assets/papers/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf) [[slides]](./assets/slides/2025.5.6组会-王子晨.pdf)
