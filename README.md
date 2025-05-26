@@ -1,4 +1,6 @@
 # 2025春季学期
+## 2025.5.21
+- 王远见 debiased and denoised entity recognition from distant supervision Paper Conference[[paper](./assets/papers/debiased-and-denoised-entity-recognition-from-distant-supervision-Paper-Conference.pdf)][[slides](./assets/slides/2025.05.21组会%20王远见.pdf)]
 ## 2025.5.15
 - 卢昕怡 Harmonizing Generalization and Personalization in Federated Prompt Learning[[paper](./assets/papers/Harmonizing%20Generalization%20and%20Personalization%20in%20federated%20prompt%20learning.pdf)][[slides](./assets/slides/2025.05.15组会%20卢昕怡.pdf)]
 - 郑腾鑫陵:
