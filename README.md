@@ -1,4 +1,6 @@
 # 2025春季学期
+## 2025.6.4
+-张文良 Dual Consolidation for Pre-Trained Model-Based Domain-Incremental Learning[[paper](./assets/papers/Dual%20Consolidation%20for%20Pre-Trained%20Model-Based%20Domain-Incremental%20Learning.pdf)][[slides](./assets/slides/20250604-zwl.pdf)]
 ## 2025.5.21
 - 王远见 debiased and denoised entity recognition from distant supervision Paper Conference[[paper](./assets/papers/debiased-and-denoised-entity-recognition-from-distant-supervision-Paper-Conference.pdf)][[slides](./assets/slides/2025.05.21组会%20王远见.pdf)]
 ## 2025.5.15
