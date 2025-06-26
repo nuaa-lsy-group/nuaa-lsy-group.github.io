@@ -2,6 +2,7 @@
 ## 2025.6.18
 - 郑腾鑫陵 Generalized Category Discovery[[paper](./assets/papers/Generalized%20Category%20Discovery.pdf)][[slides](./assets/slides/2025.6.18郑腾鑫陵%20组会.pdf)]
 - 蒋明忠 AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection[[paper](./assets/papers/AdaptCLIP%20Adapting%20CLIP%20for%20Universal%20Visual%20Anomaly%20Detection.pdf)][[slides](./assets/slides/2025.0618-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
+- 王子晨 Inducing Neural Collapse to a Fixed Hierarchy-Aware Frame for Reducing Mistake Severity[[paper](./assets/papers/Liang_Inducing_Neural_Collapse_to_a_Fixed_Hierarchy-Aware_Frame_for_Reducing_ICCV_2023_paper.pdf)][[slides](./assets/slides/0618-%E7%8E%8B%E5%AD%90%E6%99%A8%E7%BB%84%E4%BC%9A%E6%B1%87%E6%8A%A5.pdf)]
 ## 2025.6.11
 - 刘天泽 Towards Robust and Generalized Parameter-Efficient Fine-Tuning for Noisy Label Learning[[paper](./assets/papers/Towards%20Robust%20and%20Generalized%20Parameter-Efficient%20Fine-Tuning%20for%20Noisy%20Label%20Learning.pdf)][[slides](./assets/slides/20250611-liutz.pdf)]
 ## 2025.6.4
