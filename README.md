@@ -1,7 +1,7 @@
 # 2025春季学期
 ## 2025.6.18
 - 郑腾鑫陵 Generalized Category Discovery[[paper](./assets/papers/Generalized%20Category%20Discovery.pdf)][[slides](./assets/slides/2025.6.18郑腾鑫陵%20组会.pdf)]
-- 蒋明忠 AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection[[paper]]()
+- 蒋明忠 AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection[[paper](./assets/papers/AdaptCLIP%20Adapting%20CLIP%20for%20Universal%20Visual%20Anomaly%20Detection.pdf)]
 ## 2025.6.11
 - 刘天泽 Towards Robust and Generalized Parameter-Efficient Fine-Tuning for Noisy Label Learning[[paper](./assets/papers/Towards%20Robust%20and%20Generalized%20Parameter-Efficient%20Fine-Tuning%20for%20Noisy%20Label%20Learning.pdf)][[slides](./assets/slides/20250611-liutz.pdf)]
 ## 2025.6.4
