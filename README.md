@@ -1,4 +1,6 @@
 # 2025春季学期
+## 2025.6.25
+- 卢昕怡 UNLOCKING THE POTENTIAL OF MODEL CALIBRATION IN FEDERATED LEARNING [[paper](./assets/papers/Unlocking_the_Potential_of_Model_Calibration_in_Federated_Learning.pdf)][[slides](./assets/slides/2025.06.25组会%20卢昕怡.pdf)]
 ## 2025.6.18
 - 郑腾鑫陵 Generalized Category Discovery[[paper](./assets/papers/Generalized%20Category%20Discovery.pdf)][[slides](./assets/slides/2025.6.18郑腾鑫陵%20组会.pdf)]
 - 蒋明忠 AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection[[paper](./assets/papers/AdaptCLIP%20Adapting%20CLIP%20for%20Universal%20Visual%20Anomaly%20Detection.pdf)][[slides](./assets/slides/2025.0618-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
