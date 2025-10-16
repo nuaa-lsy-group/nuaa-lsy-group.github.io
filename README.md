@@ -7,7 +7,9 @@
  - 王子晨 Focal-SAM: Focal Sharpness-Aware Minimization for Long-Tailed Classification[[paper](./assets/papers/Focal-SAM%3A%20Focal%20Sharpness-Aware%20Minimization%20for%20Long-Tailed%20Classification.pdf)][[slides](./assets/slides/2025.9.17%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E5%AD%90%E6%99%A8.pptx)]
 ## 2025.9.24
  - 王远见 MLC-NC: Long-Tailed Multi-Label Image Classification Through the Lens of Neural Collapse[[paper](./assets/papers/MLC-NC%20Long-Tailed%20Multi-Label%20Image%20Classification%20Through%20the%20Lens%20of%20Neural%20Collapse.pdf)][[slides](./assets/slides/2025.09.24%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E8%BF%9C%E8%A7%81.pdf)]
-
+## 2025.10.15
+ - 卢昕怡 Adaptive Test-Time Personalization for Federated Learning & FedCTTA: A Collaborative Approach to Continual Test-Time Adaptation in Federated Learning [[paper1](./assets/papers/Adaptive%20Test-Time%20Personalization%20for.pdf)] [[paper2](./assets/papers/FedCTTA_A%20Collaborative%20Approach%20to%20Continual.pdf)] [[slide](./assets/slides/20251015-lxy.pdf)]
+> 第一篇文章提出测试时个性化联邦学习场景和自适应测试时个性化方法，通过从源客户端，之间的分布偏移中，自适应学习模型每个模块的适配率，为应对多样分布偏移提供灵活性。第二篇文章是持续TTA的场景，通过基于随机生成噪声样本的模型输出分布计算相似性感知聚合，在保障数据隐私的同时实现自适应知识共享。
 ---
 - [2025年春季学期](./2025-spring.md)
 - [2024年秋季学期](./2024-autumn.md)
