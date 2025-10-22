@@ -13,6 +13,7 @@
 ---
 ## 2025.10.22
  - 张文良 Mind the Gap Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning[[paper](./assets/papers/Mind%20the%20Gap%20Preserving%20and%20Compensating%20for%20the%20Modality%20Gap%20in%20CLIP-Based%20Continual%20Learning.pdf)][[slides](./assets/slides/20251022-zhangwl%20.pptx)]
+ 
 - [2025年春季学期](./2025-spring.md)
 - [2024年秋季学期](./2024-autumn.md)
 - [2024年春季学期](./2024-spring.md)
