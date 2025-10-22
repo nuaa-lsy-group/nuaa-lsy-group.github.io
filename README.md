@@ -11,6 +11,8 @@
  - 卢昕怡 Adaptive Test-Time Personalization for Federated Learning & FedCTTA: A Collaborative Approach to Continual Test-Time Adaptation in Federated Learning [[paper1](./assets/papers/Adaptive%20Test-Time%20Personalization%20for.pdf)] [[paper2](./assets/papers/FedCTTA_A%20Collaborative%20Approach%20to%20Continual.pdf)] [[slide](./assets/slides/20251015-lxy.pdf)]
 > 第一篇文章提出测试时个性化联邦学习场景和自适应测试时个性化方法，通过从源客户端，之间的分布偏移中，自适应学习模型每个模块的适配率，为应对多样分布偏移提供灵活性。第二篇文章是持续TTA的场景，通过基于随机生成噪声样本的模型输出分布计算相似性感知聚合，在保障数据隐私的同时实现自适应知识共享。
 ---
+## 2025.10.22
+ - 张文良 Mind the Gap Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning[[paper](./assets/papers/Mind%20the%20Gap%20Preserving%20and%20Compensating%20for%20the%20Modality%20Gap%20in%20CLIP-Based%20Continual%20Learning.pdf)][[slides](./assets/slides/20251022-zhangwl%20.pptx)]
 - [2025年春季学期](./2025-spring.md)
 - [2024年秋季学期](./2024-autumn.md)
 - [2024年春季学期](./2024-spring.md)
