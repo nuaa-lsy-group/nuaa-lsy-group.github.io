@@ -14,6 +14,8 @@
 ---
 ## 2025.10.22
  - 张文良 Mind the Gap Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning[[paper](./assets/papers/Mind%20the%20Gap%20Preserving%20and%20Compensating%20for%20the%20Modality%20Gap%20in%20CLIP-Based%20Continual%20Learning.pdf)][[slides](./assets/slides/20251022-zhangwl%20.pptx)]
+ ## 2025.11.05
+ - 孙佳家 Mixture of Experts Made Personalized：Federated Prompt Learning for Vision-Language Models[[paper](./assets/papers/Mixture%20of%20Experts%20Made%20Personalized%EF%BC%9AFederated%20Prompt%20Learning%20for%20Vision-Language%20Models.pdf)][[slides](./assets/slides/2025.11.5%E7%BB%84%E4%BC%9A%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
  
 - [2025年春季学期](./2025-spring.md)
 - [2024年秋季学期](./2024-autumn.md)
