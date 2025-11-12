@@ -13,10 +13,12 @@
  - 郑腾鑫陵 Mixture-of-Experts for Open Set Domain  Adaptation A Dual-Space Detection Approach[[paper](./assets/papers/Mixture-of-Experts%20for%20Open%20Set%20Domain%20%20Adaptation%20A%20Dual-Space%20Detection%20Approach.pdf)][[slides](./assets/slides/2025.10.15组会郑腾鑫陵.pdf)]
 ---
 ## 2025.10.22
- - 张文良 Mind the Gap Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning[[paper](./assets/papers/Mind%20the%20Gap%20Preserving%20and%20Compensating%20for%20the%20Modality%20Gap%20in%20CLIP-Based%20Continual%20Learning.pdf)][[slides](./assets/slides/20251022-zhangwl%20.pptx)]
+ - 张文良 Mind the Gap Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning[[paper](./assets/papers/Language-Guided%20Transformer%20for%20Federated%20Multi-Label%20Classification)][[slides](./assets/slides/20251022-zhangwl%20.pptx)]
  ## 2025.11.05
  - 孙佳家 Mixture of Experts Made Personalized：Federated Prompt Learning for Vision-Language Models[[paper](./assets/papers/Mixture%20of%20Experts%20Made%20Personalized%EF%BC%9AFederated%20Prompt%20Learning%20for%20Vision-Language%20Models.pdf)][[slides](./assets/slides/2025.11.5%E7%BB%84%E4%BC%9A%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
- 
+ ## 2025.11.12
+ 王子晨 Language-Guided Transformer for Federated Multi-Label Classification[[paper](./assets/papers/Focal-SAM%3A%20Focal%20Sharpness-Aware%20Minimization%20for%20Long-Tailed%20Classification.pdf)][[slides](./assets/slides/2025.11.12%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E5%AD%90%E6%99%A8.pptx)]
+
 - [2025年春季学期](./2025-spring.md)
 - [2024年秋季学期](./2024-autumn.md)
 - [2024年春季学期](./2024-spring.md)
