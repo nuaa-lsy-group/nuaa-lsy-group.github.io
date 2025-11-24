@@ -1,6 +1,6 @@
 # 2025秋季学期
 ## 2025.11.19
-- 王远见 [[paper](https://arxiv.org/abs/2510.02270)][[slides](./assets/slides/2025.11.16组会%20王远见.pdf/)]
+- 王远见 microCLIP: Unsupervised CLIP Adaptation via Coarse-Fine Token Fusion for Fine-Grained Image Classification[[paper](https://arxiv.org/abs/2510.02270)][[slides](./assets/slides/2025.11.16组会%20王远见.pdf/)]
 
  ## 2025.11.12
  - 蒋明忠Active Learning for Open-set Annotation[[paper](/assets/papers/Active%20Learning%20for%20Open-set%20Annotation.pdf)][[slides](/assets/slides/2025.11.12%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
