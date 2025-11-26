@@ -1,4 +1,7 @@
 # 2025秋季学期
+## 2025.11.26
+- 卢昕怡 CLIP-driven Coarse-to-fine Semantic Guidance for Fine- grained Open-set Semi-supervised Learning & OSLOPROMPT: Bridging Low-Supervision Challenges and Open-Set Domain Generalization in CLIP [[paper1](./assets/papers/Li_CLIP-driven_Coarse-to-fine_Semantic_Guidance_for_Fine-grained_Open-set_Semi-supervised_Learning_CVPR_2025_paper.pdf)] [[paper2](./assets/papers/C_OSLoPrompt_Bridging_Low-Supervision_Challenges_and_Open-Set_Domain_Generalization_in_CLIP_CVPR_2025_paper.pdf)] [[slide](./assets/slides/2025.11.26组会%20卢昕怡.pdf)]
+
 ## 2025.11.19
 - 王远见 microCLIP: Unsupervised CLIP Adaptation via Coarse-Fine Token Fusion for Fine-Grained Image Classification[[paper](https://arxiv.org/abs/2510.02270)][[slides](./assets/slides/2025.11.16组会%20王远见.pdf/)]
 
