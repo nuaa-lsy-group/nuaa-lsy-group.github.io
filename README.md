@@ -1,16 +1,16 @@
 # 2025秋季学期
 ## 2025.11.26
-- 卢昕怡 CLIP-driven Coarse-to-fine Semantic Guidance for Fine- grained Open-set Semi-supervised Learning & OSLOPROMPT: Bridging Low-Supervision Challenges and Open-Set Domain Generalization in CLIP [[paper1](./assets/papers/Li_CLIP-driven_Coarse-to-fine_Semantic_Guidance_for_Fine-grained_Open-set_Semi-supervised_Learning_CVPR_2025_paper.pdf)] [[paper2](./assets/papers/C_OSLoPrompt_Bridging_Low-Supervision_Challenges_and_Open-Set_Domain_Generalization_in_CLIP_CVPR_2025_paper.pdf)] [[slide](./assets/slides/2025.11.26组会%20卢昕怡.pdf)]
+- 卢昕怡 CLIP-driven Coarse-to-fine Semantic Guidance for Fine- grained Open-set Semi-supervised Learning & OSLOPROMPT: Bridging Low-Supervision Challenges and Open-Set Domain Generalization in CLIP [[paper1](./assets/papers/Li_CLIP-driven_Coarse-to-fine_Semantic_Guidance_for_Fine-grained_Open-set_Semi-supervised_Learning_CVPR_2025_paper.pdf)] [[paper2](./assets/papers/C_OSLoPrompt_Bridging_Low-Supervision_Challenges_and_Open-Set_Domain_Generalization_in_CLIP_CVPR_2025_paper.pdf)] [[slides](./assets/slides/2025.11.26组会%20卢昕怡.pdf)]
 
 ## 2025.11.19
 - 王远见 microCLIP: Unsupervised CLIP Adaptation via Coarse-Fine Token Fusion for Fine-Grained Image Classification[[paper](https://arxiv.org/abs/2510.02270)][[slides](./assets/slides/2025.11.16组会%20王远见.pdf/)]
 
- ## 2025.11.12
+## 2025.11.12
  - 蒋明忠Active Learning for Open-set Annotation[[paper](/assets/papers/Active%20Learning%20for%20Open-set%20Annotation.pdf)][[slides](/assets/slides/2025.11.12%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
  - 王子晨 Language-Guided Transformer for Federated Multi-Label Classification[[paper](https://arxiv.org/abs/2312.07165)][[slides](./assets/slides/2025.11.12%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E5%AD%90%E6%99%A8.pptx)]
 
 
- ## 2025.11.05
+## 2025.11.05
  - 孙佳家 Mixture of Experts Made Personalized：Federated Prompt Learning for Vision-Language Models[[paper](./assets/papers/Mixture%20of%20Experts%20Made%20Personalized%EF%BC%9AFederated%20Prompt%20Learning%20for%20Vision-Language%20Models.pdf)][[slides](./assets/slides/2025.11.5%E7%BB%84%E4%BC%9A%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
 
 
@@ -18,7 +18,7 @@
  - 张文良 Mind the Gap Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning[[paper](./assets/papers/Language-Guided%20Transformer%20for%20Federated%20Multi-Label%20Classification)][[slides](./assets/slides/20251022-zhangwl%20.pptx)]
 
 ## 2025.10.15
- - 卢昕怡 Adaptive Test-Time Personalization for Federated Learning & FedCTTA: A Collaborative Approach to Continual Test-Time Adaptation in Federated Learning [[paper1](./assets/papers/Adaptive%20Test-Time%20Personalization%20for.pdf)] [[paper2](./assets/papers/FedCTTA_A%20Collaborative%20Approach%20to%20Continual.pdf)] [[slide](./assets/slides/20251015-lxy.pdf)]
+ - 卢昕怡 Adaptive Test-Time Personalization for Federated Learning & FedCTTA: A Collaborative Approach to Continual Test-Time Adaptation in Federated Learning [[paper1](./assets/papers/Adaptive%20Test-Time%20Personalization%20for.pdf)] [[paper2](./assets/papers/FedCTTA_A%20Collaborative%20Approach%20to%20Continual.pdf)] [[slides](./assets/slides/20251015-lxy.pdf)]
 > 第一篇文章提出测试时个性化联邦学习场景和自适应测试时个性化方法，通过从源客户端，之间的分布偏移中，自适应学习模型每个模块的适配率，为应对多样分布偏移提供灵活性。第二篇文章是持续TTA的场景，通过基于随机生成噪声样本的模型输出分布计算相似性感知聚合，在保障数据隐私的同时实现自适应知识共享。
  - 郑腾鑫陵 Mixture-of-Experts for Open Set Domain  Adaptation A Dual-Space Detection Approach[[paper](./assets/papers/Mixture-of-Experts%20for%20Open%20Set%20Domain%20%20Adaptation%20A%20Dual-Space%20Detection%20Approach.pdf)][[slides](./assets/slides/2025.10.15组会郑腾鑫陵.pdf)]
 
