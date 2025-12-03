@@ -1,4 +1,6 @@
 # 2025秋季学期
+## 2025.12.03
+- 郑金鹏 Test-time Adaptation on Graphs via Adaptive Subgraph-based Selection and  Regularized Prototypes [[paper](https://github.com/YushengZhao/ASSESS)][[slides](assets\slides\2025.12.3郑金鹏.pdf)]
 ## 2025.11.26
 - 卢昕怡 CLIP-driven Coarse-to-fine Semantic Guidance for Fine- grained Open-set Semi-supervised Learning & OSLOPROMPT: Bridging Low-Supervision Challenges and Open-Set Domain Generalization in CLIP [[paper1](./assets/papers/Li_CLIP-driven_Coarse-to-fine_Semantic_Guidance_for_Fine-grained_Open-set_Semi-supervised_Learning_CVPR_2025_paper.pdf)] [[paper2](./assets/papers/C_OSLoPrompt_Bridging_Low-Supervision_Challenges_and_Open-Set_Domain_Generalization_in_CLIP_CVPR_2025_paper.pdf)] [[slides](./assets/slides/2025.11.26组会%20卢昕怡.pdf)]
 - 郑腾鑫陵 Maintaining Consistent Inter-Class Topology in Continual Test-Time Adaptation[[paper](./assets/papers/Maintaining%20Consistent%20Inter-Class%20Topology%20in%20Continual%20Test-Time%20Adaptation.pdf)][[slides](./assets/slides/2025.11.26组会%20郑腾鑫陵.pdf)]
