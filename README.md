@@ -1,9 +1,6 @@
 # 2025秋季学期
-<<<<<<< HEAD
 ## 2025.12.10
 - 张文良 Self-Expansion of Pre-trained Models with Mixture of Adaptersfor Continual Learning [[paper](https://github.com/huiyiwang01/SEMA-CL)] [[slides](assets\slides\20251210-zhangwl.pdf)]
-=======
->>>>>>> b1f967033c358618dda9595eb40c81ba27cd3a51
 ## 2025.12.03
 - 郑金鹏 Test-time Adaptation on Graphs via Adaptive Subgraph-based Selection and  Regularized Prototypes [[paper](https://github.com/YushengZhao/ASSESS)][[slides](assets\slides\2025.12.3郑金鹏.pdf)]
 ## 2025.11.26
