@@ -1,6 +1,7 @@
 # 2025秋季学期
 ## 2025.12.10
 - 张文良 Self-Expansion of Pre-trained Models with Mixture of Adaptersfor Continual Learning [[paper](https://github.com/huiyiwang01/SEMA-CL)] [[slides](assets\slides\20251210-zhangwl.pdf)]
+- 孙佳家 on-the-importance-of-language-driven-representation-learning-for-heterogeneous-federated-learning-Paper-Conference  [[paper](/assets/papers/ICLR-2025-on-the-importance-of-language-driven-representation-learning-for-heterogeneous-federated-learning-Paper-Conference.pdf)] [[slides](/assets/slides/2025.12.10%E7%BB%84%E4%BC%9A%20%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
 ## 2025.12.03
 - 郑金鹏 Test-time Adaptation on Graphs via Adaptive Subgraph-based Selection and  Regularized Prototypes [[paper](https://github.com/YushengZhao/ASSESS)][[slides](assets\slides\2025.12.3郑金鹏.pdf)]
 ## 2025.11.26
