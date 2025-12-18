@@ -1,4 +1,9 @@
 # 2025秋季学期
+## 2025.12.17
+- 郑腾鑫陵 PRISM: PROGRESSIVE ROBUST LEARNING FOR  OPEN-WORLD CONTINUAL CATEGORY DISCOVERY[[paper1](./assets/papers/PRISM_Progressive_Robust.pdf)]HuangmeiSinger A Dataset and A Branchformer-Diffusion Model for Huangmei Opera Synthesis[[paper2](./assets/papers/HuangmeiSinger%20A%20Dataset%20and%20A%20Branchformer-Diffusion%20Model%20for%20Huangmei%20Opera%20Synthesis.pdf)][[slides](./assets/slides/2025.12.17组会%20郑腾鑫陵.pdf)]
+> paper1 连续类别发现（CCD）旨在利用在已知类别上训练的模型，从连续到达的未标记数据流中自动发现新的类别概念，同时保留识别先前已知类别的能力。尽管最近取得了进展，但现有的方法通常假设所有阶段的数据都来自一个单一的平稳分布——在开放世界场景中很少满足这一条件。在本文中，通过引入开放世界连续类别发现（OW-CCD）设置来挑战这种平稳分布假设。
+
+> paper2 歌声合成在元宇宙、音乐创作和娱乐、文化保护和传承中得到了广泛的应用。然而，由于缺乏专业注释的高质量数据集和适当的深度学习模型，黄梅戏等传统戏曲的合成受到了限制。作者开发了一个演唱声音数据集，并提出了一个为黄梅戏独特演唱风格量身定制的声学模型。
 ## 2025.12.10
 - 张文良 Self-Expansion of Pre-trained Models with Mixture of Adaptersfor Continual Learning [[paper](https://github.com/huiyiwang01/SEMA-CL)] [[slides](assets\slides\20251210-zhangwl.pdf)]
 - 孙佳家 on-the-importance-of-language-driven-representation-learning-for-heterogeneous-federated-learning-Paper-Conference  [[paper](/assets/papers/ICLR-2025-on-the-importance-of-language-driven-representation-learning-for-heterogeneous-federated-learning-Paper-Conference.pdf)] [[slides](/assets/slides/2025.12.10%E7%BB%84%E4%BC%9A%20%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
