@@ -27,7 +27,26 @@
 > (2023年) 首个基于神经编解码语言模型的零样本语音合成系统，将TTS视为条件语言建模任务，通过大规模语音数据预训练实现高质量的零样本语音合成。
 
 - OmniChat: Enhancing Spoken Dialogue Systems with Scalable Synthetic Data for Diverse Scenarios[[paper](https://arxiv.org/pdf/2501.01384)]
->（2025年）大语言模型驱动的口语对话系统受限于现有数据集规模与场景多样性，难以处理含音频、音乐、情感的复杂真实对话；构建首个大规模多场景口语对话数据集ShareChatX，提出融合异构特征的多轮对话系统OmniChat，探索合成数据训练策略并平衡其与真实数据配比，最终在真实对话数据集 DailyTalk 上取得 SOTA 效果。
+> (2025年) 大语言模型驱动的口语对话系统受限于现有数据集规模与场景多样性，难以处理含音频、音乐、情感的复杂真实对话；构建首个大规模多场景口语对话数据集ShareChatX，提出融合异构特征的多轮对话系统OmniChat，探索合成数据训练策略并平衡其与真实数据配比，最终在真实对话数据集 DailyTalk 上取得 SOTA 效果。
+
+- CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training[[paper](https://arxiv.org/pdf/2505.17589)][[code](https://github.com/FunAudioLLM/CosyVoice)]
+> (2025年) 专注于零样本野生场景;支持双向流式、超多语言、情感控制、后训练。该模型通过大规模扩展和后训练策略，在内容一致性、说话者相似度和韵律自然度上达到新高度，支持 9 种主流语言（中文、英语、日语、韩语、德语、西班牙语、法语、意大利语、俄语）和 18+ 种汉语方言/口音（如粤语、四川话、上海话）
+
+- SoulX-Podcast: Towards Realistic Long-form Podcasts with Dialectal and Paralinguistic Diversity[[papaer](https://arxiv.org/pdf/2510.23541)][[code](https://github.com/Soul-AILab/SoulX-Podcast)]
+> (2025年) 支持零样本声音克隆、多轮多说话者交互、超长时序生成（>90 分钟）和副语言多样性控制。它针对现有 TTS 系统在多说话者连贯性和方言/副语言建模上的局限进行优化，支持中文（普通话）、英语及多种方言（四川话、河南话、粤语）。
+
+- VIBEVOICE Technical Report[[paper](https://arxiv.org/pdf/2508.19205)] [[code](https://github.com/microsoft/VibeVoice)]
+> (2025年) 解决传统 TTS 在长形式对话生成上的痛点：现有模型难以维持多说话人一致性、情感表达和上下文连贯，导致播客式输出不自然。该框架通过 next-token 扩散机制实现高效合成，填补了开源 TTS 在多模态对话（语音 + 音乐 + 效果）上的空白。亮点：长形式对话、零-shot 克隆、实时流式、隐式多模态、开源扩展
+
+- HPSU: A Benchmark for Human-Level Perception in Real-World Spoken Speech Understanding[[paper](https://arxiv.org/pdf/2511.23178)][[code](https://github.com/Ichen12/HPSU-Benchmark)]
+> (2025年) 语音大语言模型（Speech LLMs）的进展推动了自动语音识别等任务发展，但其在真实口语潜在意图与隐性情感理解上的人类级感知能力尚未被充分探索。为此，研究提出人类级口语理解感知基准（HPSU），其包含 2 万余个中英双语专家验证样本，构建了覆盖基础说话人属性识别至复杂情感意图推理的全面评估框架；同时设计了融合音视频与文本信息的半自动标注流程，解决了数据稀缺与标注成本高的问题。
+
+- ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction[[paper](https://arxiv.org/pdf/2511.08723)]
+> (2025年) 语音到语音（S2S）模型虽具备一定对话能力，但在处理情感、语气等副语言线索及实现内容与风格适配回应方面仍待探索，高质量示范数据稀缺进一步制约进展。为此，研究提出副语言感知强化学习框架 ParaS2S，可在波形层面优化内容与风格；同步构建 ParaS2SBench 基准，能自动评估模型输出适配性且与人类判断契合。借助该基准的评分反馈，模型通过 GRPO 算法从海量未标注语音中学习。
+
+- SpeakerLM: End-to-End Versatile Speaker Diarization and Recognition with Multimodal Large Language Models[[paper](https://arxiv.org/pdf/2508.06372)]
+> (2025年) 说话人区分识别（SDR）任务旨在预测音频片段中 **“何人、何时、说了什么”，是会议转写、对话系统等多说话人真实场景的关键任务。现有 SDR 系统多采用级联框架，整合说话人分轨（SD）与自动语音识别（ASR）模块，但存在误差传播、难以处理重叠语音、无法联合优化两任务协同效应等局限。** 为此，提出统一多模态大语言模型SpeakerLM，以端到端方式联合完成 SD 与 ASR 任务，并嵌入灵活的说话人注册机制以适配多样场景。该模型基于大规模真实数据，采用多阶段训练策略优化。
+> 
 ## 2、语音转文字（**Speech-to-Text, STT**）
 基于数据驱动的语音识别任务，核心是利用深度学习模型建立**音频信号序列**到**文本符号序列**的映射关系，实现将连续的语音波形转化为可读的文字内容。
 
