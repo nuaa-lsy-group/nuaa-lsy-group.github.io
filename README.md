@@ -3,7 +3,7 @@
 - 蒋明忠 COIDO Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization[[paper](./assets/papers/COIDO%20Efficient%20Data%20Selection%20for%20Visual.pdf)]
         SegEarth-OV: Towards Training-Free Open-Vocabulary Segmentation for Remote Sensing Images[[paper](./assets/papers/Li_SegEarth-OV_Towards_Training-Free_Open-Vocabulary_Segmentation_for_Remote_Sensing_Images_CVPR_2025_paper%20(2).pdf)]
         SegEarth-OV3 Exploring SAM 3 for Open-Vocabulary Semantic Segmentation in Remote Sensing Images[[paper](./assets/papers/SegEarth-OV3%20Exploring%20SAM%203%20for%20Open-Vocabulary%20Semantic%20Segmentation.pdf)]
-        all[[paper](./assets/slides/2025.12.24%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
+        all[[slides](./assets/slides/2025.12.24%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
 ## 2025.12.17
 - 郑腾鑫陵 PRISM: PROGRESSIVE ROBUST LEARNING FOR  OPEN-WORLD CONTINUAL CATEGORY DISCOVERY[[paper1](./assets/papers/PRISM_Progressive_Robust.pdf)]HuangmeiSinger A Dataset and A Branchformer-Diffusion Model for Huangmei Opera Synthesis[[paper2](./assets/papers/HuangmeiSinger%20A%20Dataset%20and%20A%20Branchformer-Diffusion%20Model%20for%20Huangmei%20Opera%20Synthesis.pdf)][[slides](./assets/slides/2025.12.17组会%20郑腾鑫陵.pdf)]
 > paper1 连续类别发现（CCD）旨在利用在已知类别上训练的模型，从连续到达的未标记数据流中自动发现新的类别概念，同时保留识别先前已知类别的能力。尽管最近取得了进展，但现有的方法通常假设所有阶段的数据都来自一个单一的平稳分布——在开放世界场景中很少满足这一条件。在本文中，通过引入开放世界连续类别发现（OW-CCD）设置来挑战这种平稳分布假设。
