@@ -1,6 +1,7 @@
 # 2025秋季学期
 ## 2025.12.24
-- 蒋明忠 COIDO Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization[[paper](./assets/papers/COIDO%20Efficient%20Data%20Selection%20for%20Visual.pdf)]
+- 蒋明忠
+  COIDO Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization[[paper](./assets/papers/COIDO%20Efficient%20Data%20Selection%20for%20Visual.pdf)]
         SegEarth-OV: Towards Training-Free Open-Vocabulary Segmentation for Remote Sensing Images[[paper](./assets/papers/Li_SegEarth-OV_Towards_Training-Free_Open-Vocabulary_Segmentation_for_Remote_Sensing_Images_CVPR_2025_paper%20(2).pdf)]
         SegEarth-OV3 Exploring SAM 3 for Open-Vocabulary Semantic Segmentation in Remote Sensing Images[[paper](./assets/papers/SegEarth-OV3%20Exploring%20SAM%203%20for%20Open-Vocabulary%20Semantic%20Segmentation.pdf)]
         all[[slides](./assets/slides/2025.12.24%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0.pdf)]
