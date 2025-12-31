@@ -55,3 +55,19 @@
 
 - NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers[[paper](https://arxiv.org/pdf/2304.09116)][[code](https://speechresearch.github.io/naturalspeech2)]
 > (2023年) 针对主流大规模多说话人 TTS 系统韵律不稳、音质差等问题，提出NaturalSpeech 2模型：采用神经音频编解码器与扩散模型生成语音隐向量，结合语音提示机制强化零样本能力；模型基于 4.4 万小时语音和歌唱数据训练，在零样本场景下的韵律、音质等指标大幅超越现有方案，还可实现零样本歌声合成。
+
+# 功能
+## 1、语音合成
+
+
+## 2、语音识别
+
+
+## 3、语音对话
+
+
+# 特色
+## 1、情感/风格
+
+
+## 2、副语言
