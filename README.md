@@ -1,4 +1,7 @@
 # 2025秋季学期
+## 2026.01.08
+- 卢昕怡 Gains: Fine-grained Federated Domain Adaptation in Open Set [[paper](./assets/papers/Fine-grained_Federated_Domain_Adaptation_in_Open_Set.pdf)][[slides](./assets/slides/20251231-luxy.pdf)]
+
 ## 2025.12.24
 - 蒋明忠
   COIDO Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization[[paper](./assets/papers/COIDO%20Efficient%20Data%20Selection%20for%20Visual.pdf)]
