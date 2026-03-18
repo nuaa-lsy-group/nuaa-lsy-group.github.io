@@ -2,8 +2,8 @@
 ## 2026.3.18
 - 张文良 Hybrid Concept Bottleneck Models [[paper](https://github.com/ly1998117/HybridCBM)][[slides](./assets/slides/2026.3.18-zhangwl.pdf)]
 > 这篇文章针对传统 CBM 需要昂贵概念标注且概念库不完整导致性能受限的问题，提出了HybridCBM——用 CLIP 共享空间免去除人工概念标注，用"静态概念（LLM 生成）+ 动态概念（可学习向量）"的混合概念库突破预定义限制，再用 GPT-2 翻译器将动态向量转为文本保持可解释性，最终在性能接近黑盒模型的同时保持高可解释性。
-## 2026.3.18
--蒋明忠  SAM 3: Segment Anything with Concepts[[paper]][[]]
+## 2026.3.11
+- 蒋明忠  SAM 3: Segment Anything with Concepts[[paper]][[]]
 # 2025秋季学期
 ## 2026.01.08
 - 卢昕怡 Gains: Fine-grained Federated Domain Adaptation in Open Set [[paper](./assets/papers/Fine-grained_Federated_Domain_Adaptation_in_Open_Set.pdf)][[slides](./assets/slides/20251231-luxy.pdf)]
