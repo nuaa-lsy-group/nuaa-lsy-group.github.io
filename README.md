@@ -2,6 +2,8 @@
 ## 2026.3.18
 - 张文良 Hybrid Concept Bottleneck Models [[paper](https://github.com/ly1998117/HybridCBM)][[slides](./assets/slides/2026.3.18-zhangwl.pdf)]
 > 这篇文章针对传统 CBM 需要昂贵概念标注且概念库不完整导致性能受限的问题，提出了HybridCBM——用 CLIP 共享空间免去除人工概念标注，用"静态概念（LLM 生成）+ 动态概念（可学习向量）"的混合概念库突破预定义限制，再用 GPT-2 翻译器将动态向量转为文本保持可解释性，最终在性能接近黑盒模型的同时保持高可解释性。
+- 孙佳家 FedMGP: Personalized Federated Learning with Multi-Group Text-Visual Prompts [[paper](./assets/papers/FedMGP.pdf)][[slides](./assets/slides/2026.3.18%E7%BB%84%E4%BC%9A%20%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
+> 这篇文章针对传统联邦提示学习仅依赖单一文本提示、易产生客户端过拟合和聚合不稳定，且难以兼顾个性化与泛化性的问题，提出了FedMGP——为每个客户端配置多组文本-视觉配对提示，搭配多样性损失驱动各提示组专攻不同互补语义维度，再设计基于相似度引导概率采样的动态提示聚合策略，在优先聚合语义对齐知识的同时探索少表征模式，还通过在多组间重新分配固定提示容量保持参数高效性，最终以最低的通信参数（5.1k）在各类联邦视觉-语言基准任务中，实现了个性化和域泛化性能的双优，同时平衡了全局公共知识保留与客户端特定特征挖掘。
 ## 2026.3.11
 - 蒋明忠  SAM 3: Segment Anything with Concepts[[paper](./assets/papers/sam3.pdf)][[slides](./assets/slides/2026.3.11%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0%20.pdf)]
 >这篇论文提出了 SAM 3 (Segment Anything Model 3)，这是一个统一的视觉模型，旨在基于概念提示（Concept Prompts，如简短的名词短语“黄色校车”、图像示例或两者结合）在图像和视频中检测、分割并跟踪所有匹配的对象实例。
