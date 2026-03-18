@@ -1,3 +1,7 @@
+# 2026春季学期
+## 2026.3.18
+- 张文良 Hybrid Concept Bottleneck Models [[paper](https://github.com/ly1998117/HybridCBM)][[slides](./assets/slides/2026.3.18-zhangwl.pdf)]
+> 这篇文章针对传统 CBM 需要昂贵概念标注且概念库不完整导致性能受限的问题，提出了HybridCBM——用 CLIP 共享空间免去除人工概念标注，用"静态概念（LLM 生成）+ 动态概念（可学习向量）"的混合概念库突破预定义限制，再用 GPT-2 翻译器将动态向量转为文本保持可解释性，最终在性能接近黑盒模型的同时保持高可解释性。
 # 2025秋季学期
 ## 2026.01.08
 - 卢昕怡 Gains: Fine-grained Federated Domain Adaptation in Open Set [[paper](./assets/papers/Fine-grained_Federated_Domain_Adaptation_in_Open_Set.pdf)][[slides](./assets/slides/20251231-luxy.pdf)]
@@ -13,6 +17,7 @@
 > paper1 连续类别发现（CCD）旨在利用在已知类别上训练的模型，从连续到达的未标记数据流中自动发现新的类别概念，同时保留识别先前已知类别的能力。尽管最近取得了进展，但现有的方法通常假设所有阶段的数据都来自一个单一的平稳分布——在开放世界场景中很少满足这一条件。在本文中，通过引入开放世界连续类别发现（OW-CCD）设置来挑战这种平稳分布假设。
 
 > paper2 歌声合成在元宇宙、音乐创作和娱乐、文化保护和传承中得到了广泛的应用。然而，由于缺乏专业注释的高质量数据集和适当的深度学习模型，黄梅戏等传统戏曲的合成受到了限制。作者开发了一个演唱声音数据集，并提出了一个为黄梅戏独特演唱风格量身定制的声学模型。
+- 林鑫科 FT-GAN: Fine-Grained Tune Modeling for Chinese Opera Synthesis[[paper](https://github.com/zhengmidon/Gezi-Opera-Synthesis)][[slides](./assets/slides/2025.12.17组会%20林鑫科.pdf)]
 ## 2025.12.10
 - 张文良 Self-Expansion of Pre-trained Models with Mixture of Adaptersfor Continual Learning [[paper](https://github.com/huiyiwang01/SEMA-CL)] [[slides](assets\slides\20251210-zhangwl.pdf)]
 - 孙佳家 on-the-importance-of-language-driven-representation-learning-for-heterogeneous-federated-learning-Paper-Conference  [[paper](/assets/papers/ICLR-2025-on-the-importance-of-language-driven-representation-learning-for-heterogeneous-federated-learning-Paper-Conference.pdf)] [[slides](/assets/slides/2025.12.10%E7%BB%84%E4%BC%9A%20%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
