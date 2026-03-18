@@ -3,7 +3,13 @@
 - 张文良 Hybrid Concept Bottleneck Models [[paper](https://github.com/ly1998117/HybridCBM)][[slides](./assets/slides/2026.3.18-zhangwl.pdf)]
 > 这篇文章针对传统 CBM 需要昂贵概念标注且概念库不完整导致性能受限的问题，提出了HybridCBM——用 CLIP 共享空间免去除人工概念标注，用"静态概念（LLM 生成）+ 动态概念（可学习向量）"的混合概念库突破预定义限制，再用 GPT-2 翻译器将动态向量转为文本保持可解释性，最终在性能接近黑盒模型的同时保持高可解释性。
 ## 2026.3.11
-- 蒋明忠  SAM 3: Segment Anything with Concepts[[paper]][[]]
+- 蒋明忠  SAM 3: Segment Anything with Concepts[[paper](./assets/papers/sam3.pdf)][[slides](./assets/slides/2026.3.11%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0%20.pdf)]
+>这篇论文提出了 SAM 3 (Segment Anything Model 3)，这是一个统一的视觉模型，旨在基于概念提示（Concept Prompts，如简短的名词短语“黄色校车”、图像示例或两者结合）在图像和视频中检测、分割并跟踪所有匹配的对象实例。
+其核心贡献包括：
+新任务定义：正式提出了可提示概念分割 (PCS) 任务，超越了前代仅针对单个对象进行几何提示（点、框）的局限，实现了开放词汇下的全图/全视频实例查找与分割。
+模型架构创新：采用共享骨干网络的检测器与基于记忆的视频跟踪器架构，并创新性地引入存在头 (Presence Head) 将“识别”（概念是否存在）与“定位”（对象在哪里）解耦，显著提升了检测精度和抗干扰能力。
+数据引擎突破：构建了一个高效的人机协同数据引擎，利用多模态大语言模型（MLLM）作为“AI标注员”生成名词短语和困难负样本，并结合人工验证，构建了包含400万独特概念标签的高质量数据集 SA-Co。
+性能表现：SAM 3 在图像和视频的 PCS 任务上将现有系统的准确率提高了一倍，同时在传统的视觉提示分割任务上也优于 SAM 2，并开源了模型代码及全新的 SA-Co 基准测试集。
 # 2025秋季学期
 ## 2026.01.08
 - 卢昕怡 Gains: Fine-grained Federated Domain Adaptation in Open Set [[paper](./assets/papers/Fine-grained_Federated_Domain_Adaptation_in_Open_Set.pdf)][[slides](./assets/slides/20251231-luxy.pdf)]
