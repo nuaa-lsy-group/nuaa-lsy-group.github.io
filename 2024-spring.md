@@ -9,7 +9,7 @@
 > 介绍了long-tailed learning中关于数据增强的两个工作。第一篇发现class-wise augmentation 可以提高 non-augmented classes 的性能，而 augmented classes 的性能可能不会显著提高，基于这一点，分别计算每个类别的 level-of-learning score，并利用该得分来确定增强强度，第二篇提出一种自适应的动态可选数据增强，以解决固有的数据层面的不平衡和外在的增强层面的不平衡，使每个类别在训练期间可以选择适当的增强方法。
 
 ## 6.20
-- 郑金鹏：Out-of-Distribution Detection in Long-Tailed Recognition with Calibrated Outlier Class Learning[[slide](./assets/slides/2024.6.20组会%20郑金鹏.pdf)][[paper](./assets/papers/Out-of-Distribution%20Detection%20in%20Long-Tailed%20Recog.pdf)]
+- 郑金鹏：Out-of-Distribution Detection in Long-Tailed Recognition with Calibrated Outlier Class Learning[[slide](./assets/slides/2024.6.20组会%20郑金鹏.pdf)][[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28217)]
 
 ## 6.13
 - 万文海：Online Knowledge Distillation[[slide](./assets/slides/2024.6.13组会%20万文海.pdf)][[paper1](https://arxiv.org/pdf/1912.00350)][[paper2](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Online_Knowledge_Distillation_via_Collaborative_Learning_CVPR_2020_paper.pdf)]
@@ -17,8 +17,8 @@
 
 ## 6.6
 - 郑宇翔：Loss Decoupling for Task-Agnostic Continual Learning[[slide](./assets/slides/2024.6.6组会%20郑宇祥.pdf)][[paper](./assets/papers/Loss%20Decoupling%20for%20Task-Agnostic%20Continual%20Learning.pdf)]
-- 郑金鹏：Open-Sampling: Exploring Out-of-Distribution Data for Re-balancing Long-tailed Datasets[[slide](./assets/slides/2024.3.14组会%20郑金鹏.pdf)][[paper](./assets/papers/Open-Sampling%20Exploring%20Out-of-Distribution%20data%20.pdf)]
-> 相似论文：[采样高斯噪声处理长尾](./assets/papers/Pure%20Noise%20to%20the%20Rescue%20of%20Insufficient%20Data%20Imp.pdf)；[采样OOD处理噪声](./assets/papers/Open-set%20Label%20Noise%20Can%20Improve%20Robustness%20Agains.pdf)，也许可以把OOD样本引入到长尾噪声数据集。
+- 郑金鹏：Open-Sampling: Exploring Out-of-Distribution Data for Re-balancing Long-tailed Datasets[[slide](./assets/slides/2024.3.14组会%20郑金鹏.pdf)][[paper](https://proceedings.mlr.press/v162/wei22c.html)]
+> 相似论文：[采样高斯噪声处理长尾](https://arxiv.org/abs/2112.08810)；[采样OOD处理噪声](https://arxiv.org/abs/2106.10891)，也许可以把OOD样本引入到长尾噪声数据集。
 
 ## 5.30
 - 陶子健：General Multi-label Image Classification with Transformers[[slide](./assets/slides/2024.5.30组会%20陶子健.pdf)][[paper](./assets/papers/General%20Multi-label%20Image%20Classification%20with%20Transformers.pdf)]
@@ -41,7 +41,7 @@
 ## 4.25
 
 - 陶子健：No Fear of Classifier Biases: Neural Collapse Inspired Federated Learning with Synthetic and Fixed Classifier[[slide](./assets/slides/2024.4.25组会%20陶子健.pdf)][[paper](./assets/papers/No%20Fear%20of%20Classifier%20Biases-Neural%20Collapse%20Inspired%20Federated%20Learning%20with%20Synthetic%20and%20Fixed%20Classifier-iccv2023.pdf)]
-- 郑金鹏：ProMix: Combating Label Noise via Maximizing Clean Sample Utility[[slide](./assets/slides/2024.4.25组会%20郑金鹏.pdf)][[paper](./assets/papers/ProMix%20Combating%20Label%20Noise%20via%20Maximizing%20Clean.pdf)]
+- 郑金鹏：ProMix: Combating Label Noise via Maximizing Clean Sample Utility[[slide](./assets/slides/2024.4.25组会%20郑金鹏.pdf)][[paper](https://www.ijcai.org/proceedings/2023/494)]
 
 ## 4.21
 
@@ -55,4 +55,4 @@
 ## 3.14
 
 - 陶子健：Model-Contrastive Federated Learning [[slide](./assets/slides/2024.3.14组会%20陶子健.pdf)][[paper](./assets/papers/Li_Model-Contrastive_Federated_Learning_CVPR_2021_paper.pdf)]
-- 郑金鹏：When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method [[slide](./assets/slides/2024.3.14组会%20郑金鹏.pdf)][[paper](./assets/papers/When%20Noisy%20Labels%20Meet%20Long%20Tail%20Dilemmas%20A%20Repre.pdf)]
+- 郑金鹏：When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method [[slide](./assets/slides/2024.3.14组会%20郑金鹏.pdf)][[paper](https://arxiv.org/abs/2211.10955)]
