@@ -1,4 +1,9 @@
 # 2026春季学期
+## 2026.3.25
+- 王远见 Concepts from Representations Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations [[paper](./assets/papers/Concepts%20from%20Representations%20Post-hoc%20Concept%20Bottleneck%20Models%20via%20Sparse%20Decomposition%20of%20Visual%20Representations.pdf)][[slides](./assets/slides/2026.03.25%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E8%BF%9C%E8%A7%81.pdf)]
+> 本文提出了一种名为PCBM-ReD的新型事后概念瓶颈模型（CBM），为预训练的黑盒视觉模型自动赋予高保真可解释性。该方法利用稀疏自编码器从预训练图像编码器的潜在表示中挖掘特征概念，并借助多模态大语言模型（MLLM）根据视觉可识别性与任务相关性进行标注与过滤；提出一种基于重建引导的无监督贪心算法，筛选出线性独立且能高效重构原始视觉表征的核心概念子集；利用CLIP的图文对齐特性，将图像表征稀疏分解为概念文本嵌入的线性组合，并在此基础上拟合线性分类器。PCBM-ReD缩小了与端到端黑盒模型的性能差距、达到同类可解释模型的最优精度，还完整保留了零样本与少样本泛化能力，并通过人工评估验证了其在概念直观性、表征忠实度及预测因果关联性上的显著优势。
+
+
 ## 2026.3.18
 - 张文良 Hybrid Concept Bottleneck Models [[paper](https://github.com/ly1998117/HybridCBM)][[slides](./assets/slides/2026.3.18-zhangwl.pdf)]
 > 这篇文章针对传统 CBM 需要昂贵概念标注且概念库不完整导致性能受限的问题，提出了HybridCBM——用 CLIP 共享空间免去除人工概念标注，用"静态概念（LLM 生成）+ 动态概念（可学习向量）"的混合概念库突破预定义限制，再用 GPT-2 翻译器将动态向量转为文本保持可解释性，最终在性能接近黑盒模型的同时保持高可解释性。
