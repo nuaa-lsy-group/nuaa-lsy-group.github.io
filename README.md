@@ -1,4 +1,9 @@
 # 2026春季学期
+## 2026.4.22
+- 王远见 Discovering Fine-Grained Visual-Concept Relations by Disentangled Optimal Transport Concept Bottleneck Models [[paper](./assets/papers/Discovering%20Fine-Grained%20Visual-Concept%20Relations%20by%20Disentangled%20Optimal%20Transport%20Concept%20Bottleneck%20Models.pdf)][[slides](./assets/slides/2026.04.22%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E8%BF%9C%E8%A7%81.pdf)]
+> 本文提出了解耦最优传输概念瓶颈模型（DOT-CBM），旨在同步实现局部图像块与文本概念的细粒度显式对齐，并消除数据偏差导致的捷径学习。该框架包含三个核心设计：模态内特征解耦，通过正交投影损失强制拉开不同局部区域与概念的特征距离，提升细粒度判别力；基于最优传输的细粒度对齐，将概念预测建模为图像块与概念分布间的传输问题，利用Sinkhorn算法求解显式分配矩阵，实现前向概念预测与反向空间定位掩码的双向输出；双先验分布建模抗偏，利用视觉显著性图与概念共现统计构造先验分布注入传输约束，从底层抑制背景干扰与概念混淆。
+
+
 ## 2026.3.25
 - 王远见 Concepts from Representations Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations [[paper](./assets/papers/Concepts%20from%20Representations%20Post-hoc%20Concept%20Bottleneck%20Models%20via%20Sparse%20Decomposition%20of%20Visual%20Representations.pdf)][[slides](./assets/slides/2026.03.25%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E8%BF%9C%E8%A7%81.pdf)]
 > 本文提出了一种名为PCBM-ReD的新型事后概念瓶颈模型（CBM），为预训练的黑盒视觉模型自动赋予高保真可解释性。该方法利用稀疏自编码器从预训练图像编码器的潜在表示中挖掘特征概念，并借助多模态大语言模型（MLLM）根据视觉可识别性与任务相关性进行标注与过滤；提出一种基于重建引导的无监督贪心算法，筛选出线性独立且能高效重构原始视觉表征的核心概念子集；利用CLIP的图文对齐特性，将图像表征稀疏分解为概念文本嵌入的线性组合，并在此基础上拟合线性分类器。PCBM-ReD缩小了与端到端黑盒模型的性能差距、达到同类可解释模型的最优精度，还完整保留了零样本与少样本泛化能力，并通过人工评估验证了其在概念直观性、表征忠实度及预测因果关联性上的显著优势。
