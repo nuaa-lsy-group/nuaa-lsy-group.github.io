@@ -2,6 +2,8 @@
 ## 2026.4.22
 - 王远见 Discovering Fine-Grained Visual-Concept Relations by Disentangled Optimal Transport Concept Bottleneck Models [[paper](./assets/papers/Discovering%20Fine-Grained%20Visual-Concept%20Relations%20by%20Disentangled%20Optimal%20Transport%20Concept%20Bottleneck%20Models.pdf)][[slides](./assets/slides/2026.04.22%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E8%BF%9C%E8%A7%81.pdf)]
 > 本文提出了解耦最优传输概念瓶颈模型（DOT-CBM），旨在同步实现局部图像块与文本概念的细粒度显式对齐，并消除数据偏差导致的捷径学习。该框架包含三个核心设计：模态内特征解耦，通过正交投影损失强制拉开不同局部区域与概念的特征距离，提升细粒度判别力；基于最优传输的细粒度对齐，将概念预测建模为图像块与概念分布间的传输问题，利用Sinkhorn算法求解显式分配矩阵，实现前向概念预测与反向空间定位掩码的双向输出；双先验分布建模抗偏，利用视觉显著性图与概念共现统计构造先验分布注入传输约束，从底层抑制背景干扰与概念混淆。
+- 蒋明忠 LoRA: Low-Rank Adaptation of Large Language Models [[paper](./assets/papers/Hu%20%E7%AD%89%20-%202021%20-%20LoRA%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models.pdf)][[slides](./assets/slides/2026.04.22%E7%BB%84%E4%BC%9A-%E8%92%8B%E6%98%8E%E5%BF%A0%20.pdf)]
+> 自然语言处理的主流范式包括对一般领域数据的大规模预训练和对特定任务或领域 的适应。当我们预训练更大的模型时,重新训练所有模型参数的传统微调变得不太 可行。以GPT-3 175B为例,部署许多独立的微调模型实例(每个实例都有175B参数) 是非常昂贵的。我们提出了低秩自适应(Low-Rank Adaptation,或LoRA),它冻结了 预训练的模型权重,并将可训练的秩分解矩阵注入到Transformer体系结构的每一层, 从而大大减少了下游任务的可训练参数的数量。对于GPT-3,与完全微调相比, LoRA可以将可训练参数的数量减少10,000倍,计算硬件需求减少3倍。LoRA在GPT3和GPT-2上的模型质量表现与微调相当或更好,尽管具有更少的可训练参数,更高 的训练吞吐量,并且没有额外的推理延迟。我们还对语言模型适应中的等级缺陷进 行了实证研究,从而揭示了LoRA的有效性。
 
 
 ## 2026.3.25
