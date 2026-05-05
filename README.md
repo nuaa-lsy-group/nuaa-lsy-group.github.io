@@ -1,9 +1,9 @@
 # 2026春季学期
-# 2026.4.29
+## 2026.4.29
 -刘天泽 MM-OVSeg: Multimodal Optical–SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing [[paper](./assets/papers/MM-OVSeg%20Multimodal%20Optical%E2%80%93SAR%20Fusion%20for%20Open-Vocabulary.pdf)][[slides](./assets/slides/20260429-liutz(1).pdf)]
 > 开放词汇分割能够从开放文本类别中实现像素级识别，可超越固定类别实现泛化。尽管在遥感中极具潜力，但该领域的研究仍高度依赖晴空光学数据，在多云、雾霾等恶劣条件下表现极差。本文提出 MM-OVSeg，一种用于恶劣天气下鲁棒开放词汇分割的光学–SAR 多模态融合框架。MM-OVSeg 充分利用两种模态的互补优势：光学图像提供丰富的光谱语义，而合成孔径雷达（SAR）具备穿透云层的结构信息。为解决跨模态域差异与当前视觉–语言模型稠密预测能力不足的问题，我们提出两项关键设计：用于多传感器特征对齐的跨模态统一流程，以及双编码器融合模块，该模块整合多个视觉基础模型的分层特征，实现文本对齐的多模态分割。大量实验表明，MM-OVSeg 在各类云覆盖条件下均具备优异的鲁棒性与泛化能力。
-
-
+- 张文良 HGLTR: Hierarchical Knowledge Injection for Calibrating Pre-trained Models in  Long-Tail Recognition [[paper](https://github.com/z7d1/hgltr.git)][[slides](./assets/slides/20260429-zhangwl.pdf)]
+> 这篇文章针对长尾分布下预训练视觉‑语言模型在尾类别表现不足的问题，提出 HGLTR——通过将类别层次知识作为先验注入模型，实现特征层面对齐和分类器正则化，使模型在提升尾类别识别准确率的同时保持整体语义一致性。
 ## 2026.4.22
 - 王远见 Discovering Fine-Grained Visual-Concept Relations by Disentangled Optimal Transport Concept Bottleneck Models [[paper](./assets/papers/Discovering%20Fine-Grained%20Visual-Concept%20Relations%20by%20Disentangled%20Optimal%20Transport%20Concept%20Bottleneck%20Models.pdf)][[slides](./assets/slides/2026.04.22%E7%BB%84%E4%BC%9A%20%E7%8E%8B%E8%BF%9C%E8%A7%81.pdf)]
 > 本文提出了解耦最优传输概念瓶颈模型（DOT-CBM），旨在同步实现局部图像块与文本概念的细粒度显式对齐，并消除数据偏差导致的捷径学习。该框架包含三个核心设计：模态内特征解耦，通过正交投影损失强制拉开不同局部区域与概念的特征距离，提升细粒度判别力；基于最优传输的细粒度对齐，将概念预测建模为图像块与概念分布间的传输问题，利用Sinkhorn算法求解显式分配矩阵，实现前向概念预测与反向空间定位掩码的双向输出；双先验分布建模抗偏，利用视觉显著性图与概念共现统计构造先验分布注入传输约束，从底层抑制背景干扰与概念混淆。
