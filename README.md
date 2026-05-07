@@ -1,6 +1,6 @@
 # 2026春季学期
 ## 2026.5.7
-- 郑腾鑫陵 多模态大模型发展历程[[slides](./assets/slides/2026.5.6组会 郑腾鑫陵.pdf)]
+- 郑腾鑫陵 多模态大模型发展历程[[slides](./assets/slides/2026.5.6组会%20郑腾鑫陵.pdf)]
 > 内容分为三部分。第一部分关于Transformer架构及相应拓展（旋转位置编码 ROPE、注意力机制 MHA、MQA、GQA、MLA）。第二部分关GPT 1-3系列、ViT、CLIP、BLIP 1-3系列、LLaVA 1 1.5 1.5HD系列、Qwen-VL、Qwen2-VL、Qwen2.5-VL系列。第三部分关于后训练（监督微调，强化对齐 PPO、DPO、GRPO）。
 ## 2026.4.29
 - 刘天泽 MM-OVSeg: Multimodal Optical–SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing [[paper](./assets/papers/MM-OVSeg%20Multimodal%20Optical%E2%80%93SAR%20Fusion%20for%20Open-Vocabulary.pdf)][[slides](./assets/slides/20260429-liutz(1).pdf)]
