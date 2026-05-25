@@ -1,7 +1,12 @@
 # 2026春季学期
+## 2026.5.13
+- 林鑫科 BACK TO BASICS REVISITING ASR IN THE AGE OF VOICE AGENTS [[paper](./assets/papers/BACK%20TO%20BASICS%20REVISITING%20ASR%20IN%20THE%20AGE%20OF%20VOICE%20AGENTS.pdf)][[slides](./assets/slides/2026_5_13lxk.pdf)]
+> 这篇论文提出了WildASR，一个基于真实人类语音的多语言诊断基准(benchmark)，系统评估ASR系统在环境退化、人口统计变化和语言多样性三大维度下的鲁棒性，揭示当前ASR模型在真实世界复杂条件下的严重性能下降和幻觉问题，并提供实用的分析工具，推动更可靠的语音识别系统研发。
+
 ## 2026.5.7
 - 郑腾鑫陵 多模态大模型发展历程[[slides](./assets/slides/2026.5.6组会%20郑腾鑫陵.pdf)]
 > 内容分为三部分。第一部分关于Transformer架构及相应拓展（旋转位置编码 ROPE、注意力机制 MHA、MQA、GQA、MLA）。第二部分关GPT 1-3系列、ViT、CLIP、BLIP 1-3系列、LLaVA 1 1.5 1.5HD系列、Qwen-VL、Qwen2-VL、Qwen2.5-VL系列。第三部分关于后训练（监督微调，强化对齐 PPO、DPO、GRPO）。
+
 ## 2026.4.29
 - 刘天泽 MM-OVSeg: Multimodal Optical–SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing [[paper](./assets/papers/MM-OVSeg%20Multimodal%20Optical%E2%80%93SAR%20Fusion%20for%20Open-Vocabulary.pdf)][[slides](./assets/slides/20260429-liutz(1).pdf)]
 > 开放词汇分割能够从开放文本类别中实现像素级识别，可超越固定类别实现泛化。尽管在遥感中极具潜力，但该领域的研究仍高度依赖晴空光学数据，在多云、雾霾等恶劣条件下表现极差。本文提出 MM-OVSeg，一种用于恶劣天气下鲁棒开放词汇分割的光学–SAR 多模态融合框架。MM-OVSeg 充分利用两种模态的互补优势：光学图像提供丰富的光谱语义，而合成孔径雷达（SAR）具备穿透云层的结构信息。为解决跨模态域差异与当前视觉–语言模型稠密预测能力不足的问题，我们提出两项关键设计：用于多传感器特征对齐的跨模态统一流程，以及双编码器融合模块，该模块整合多个视觉基础模型的分层特征，实现文本对齐的多模态分割。大量实验表明，MM-OVSeg 在各类云覆盖条件下均具备优异的鲁棒性与泛化能力。
