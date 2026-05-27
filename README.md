@@ -6,7 +6,7 @@
 ## 2026.5.20
 - 冯朝晨 PersonaVLM-Long-Term Personalized Multimodal LLMs [[paper](./assets/papers/PersonaVLM-Long-Term%20Personalized%20Multimodal%20LLMs.pdf)][[slides](./assets/slides/PersonaVLM.pdf)]
 > 这篇论文提出PersonaVLM，一个面向长期个性化交互的多模态大语言模型智能体框架。该框架通过集成记忆（主动提取并总结多模态交互历史）、推理（检索相关记忆进行多轮个性化推理）和响应对齐（动态推断用户演变个性并调整输出）三项关键能力，将通用MLLM转化为能持续适应用户偏好变化的个性化助理。为评估长期个性化能力，构建了Persona-MME基准，涵盖超过2,000个交互案例、7个关键维度和14个细粒度任务。
-- 蒋塾英 PersonaVLM-Long-Term Personalized Multimodal LLMs [[paper](./assets/papers/Backpropagation-Free%20Test-Time%20Adaptation%20via%20Probabilistic%20Gaussian%20Alignment.pdf)][[slides](./assets/slides/2026.5.20%E7%BB%84%E4%BC%9A%E8%92%8B%E5%A1%BE%E8%8B%B1.pdf)]
+- 蒋塾英 Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment [[paper](./assets/papers/Backpropagation-Free%20Test-Time%20Adaptation%20via%20Probabilistic%20Gaussian%20Alignment.pdf)][[slides](./assets/slides/2026.5.20%E7%BB%84%E4%BC%9A%E8%92%8B%E5%A1%BE%E8%8B%B1.pdf)]
 > 该论文的核心在于将模型在测试阶段的优化过程从复杂的梯度下降重构为高效的概率统计推理。在不进行任何反向传播的情况下，该方法将测试输入特征建模为高斯分布，通过对比观测数据与预定义的类原型分布，利用闭式解直接更新类均值。这种方法不仅彻底规避了反向传播带来的高显存开销与推理延迟，还通过引入历史知识库与 CLIP 先验的正则化机制，显著提升了模型在应对分布偏移时的决策稳定性，使其成为极低算力设备实现高精度实时自适应的理想方案。
 
 ## 2026.5.13
