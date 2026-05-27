@@ -1,4 +1,8 @@
 # 2026春季学期
+## 2026.5.27
+- 白楚榆 EMERGING SAFETY ATTACK AND DEFENSE IN FEDERATED INSTRUCTION TUNING OF LARGE LANGUAGE MODELS [[paper](./assets/papers/EMERGING%20SAFETY%20ATTACK%20AND%20DEFENSE%20IN%20FED-%20ERATED%20.pdf)][[slides](./assets/slides/2026.5.27%E7%BB%84%E4%BC%9A%20%E7%99%BD%E6%A5%9A%E6%A6%86.pdf)]
+> 本文首次揭示了联邦指令微调（FedIT）场景下大语言模型安全对齐的脆弱性。研究发现，恶意客户端只需将本地训练数据替换为未对齐数据，即可在不被察觉的情况下显著破坏全局模型的安全性，且现有6种联邦防御方法对此基本失效，最多仅能恢复4%的安全性。针对这一问题，论文提出了一种事后防御方法：在每轮聚合完成后，服务器自动生成安全对齐数据对全局模型进行微调修复，最多可恢复69%的安全性，甚至超过无攻击时的水平，且该方法即插即用，无需改动现有联邦训练流程。
+
 ## 2026.5.20
 - 冯朝晨 PersonaVLM-Long-Term Personalized Multimodal LLMs [[paper](./assets/papers/PersonaVLM-Long-Term%20Personalized%20Multimodal%20LLMs.pdf)][[slides](./assets/slides/PersonaVLM.pdf)]
 > 这篇论文提出PersonaVLM，一个面向长期个性化交互的多模态大语言模型智能体框架。该框架通过集成记忆（主动提取并总结多模态交互历史）、推理（检索相关记忆进行多轮个性化推理）和响应对齐（动态推断用户演变个性并调整输出）三项关键能力，将通用MLLM转化为能持续适应用户偏好变化的个性化助理。为评估长期个性化能力，构建了Persona-MME基准，涵盖超过2,000个交互案例、7个关键维度和14个细粒度任务。
