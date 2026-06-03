@@ -2,6 +2,7 @@
 ## 2026.6.3
 - 王子晨 Prototypes as Anchors: Tackling Unseen Noise for online continual learning 
 [[paper](./assets/papers/Prototypes%20as%20Anchors%20Tackling%20Unseen%20Noise%20for%20online%20continual%20learning.pdf)][[slides](./assets/slides/20260603-wzc_20260603130707.pdf)]
+> 本文首次正式定义并分析闭集噪声与开集噪声，指出两类噪声都会向当前训练分类器引入未知类别样本。为有效处理噪声标签与未知类别，本文提出一种基于回放的创新方法：原型锚定（PAA）。该方法为每一类学习具有代表性且强判别性的原型，并在表征空间中采用基于相似度的去噪机制，以识别并消除未知类别带来的负面影响。同时，PAA 采用双分类器架构，通过分类器间的一致性校验进一步提升模型鲁棒性。
 ## 2026.5.27
 - 白楚榆 EMERGING SAFETY ATTACK AND DEFENSE IN FED ERATED INSTRUCTION TUNING OF LARGE LANGUAGE MODELS [[paper](./assets/papers/EMERGING%20SAFETY%20ATTACK%20AND%20DEFENSE%20IN%20FED-%20ERATED%20.pdf)][[slides](./assets/slides/2026.5.27%E7%BB%84%E4%BC%9A%20%E7%99%BD%E6%A5%9A%E6%A6%86.pdf)]
 > 本文首次揭示了联邦指令微调（FedIT）场景下大语言模型安全对齐的脆弱性。研究发现，恶意客户端只需将本地训练数据替换为未对齐数据，即可在不被察觉的情况下显著破坏全局模型的安全性，且现有6种联邦防御方法对此基本失效，最多仅能恢复4%的安全性。针对这一问题，论文提出了一种事后防御方法：在每轮聚合完成后，服务器自动生成安全对齐数据对全局模型进行微调修复，最多可恢复69%的安全性，甚至超过无攻击时的水平，且该方法即插即用，无需改动现有联邦训练流程。
