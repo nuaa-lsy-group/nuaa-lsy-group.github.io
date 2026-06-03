@@ -6,10 +6,10 @@
  - 蒋明忠 Test-Time Adaptation of Vision-Language Models for  Open-Vocabulary Semantic Segmentation
 [[paper](./assets/papers/Noori%20%E7%AD%89%20-%202025%20-%20Test-Time%20Adaptation%20of%20Vision-Language%20Models%20for%20Open-Vocabulary%20Semantic%20Segmentation.pdf)][[slides](./assets/slides/2026.6组会-蒋明忠%20.pdf)]
 > 最近,测试时间自适应在图像分类的视觉语言模型中引起了广泛的兴趣。然而,据 我们所知,在密集预测任务中,如开放词汇语义分割(OVSS),这个问题完全被忽视 了。为此,我们提出了一种新的TTA方法,以适应VLMs在测试期间进行分割。与 用于图像分类的TTA方法不同,我们的多层次和多提示(MLMP)熵最小化集成了来 自中间视觉编码器层的特征,并在全局CLS标记和局部像素级使用不同的文本提示 模板执行。我们的方法可以作为任何分割网络的即插即用,不需要额外的训练数据 或标签,即使使用单个测试样本也保持有效。
-> Test-Time Multi-Prompt Adaptation for Open-Vocabulary Remote Sensing  Image Segmentation
+- Test-Time Multi-Prompt Adaptation for Open-Vocabulary Remote Sensing  Image Segmentation
 [[paper](./assets/papers/Yang%20等%20-%20Test-Time%20Multi-Prompt%20Adaptation%20for%20Open-Vocabulary%20Remote%20Sensing%20Image%20Segmentation.pdf)][[slides](./assets/slides/2026.6组会-蒋明忠%20.pdf)]
 视觉语言模型(VLMs)的兴起推动了开放词汇遥感图像语义 分割(OVRSIS)的初步探索,使识别复杂地球观测场景中未见 的类别成为可能。然而,现有的方法主要侧重于增强特定领 域遥感图像的视觉表示,而忽略了文本信息的作用。在本文 中,我们认为在OVRSIS任务中存在一个关键的文本歧义问题, 限制了最终的分割性能。因此,我们提出了一种即插即用且有 效的测试时间多提示自适应(TMPA)方法来减轻OVRSIS中的 文本歧义。具体而言,TMPA首先通过执行带有任务驱动提示 符的大型语言模型,为每个类别生成多样化的、上下文感知 的描述,而不是幼稚的类名,这可以有效避免一些文本歧义,即 背景类在各种任务中具有不同的含义。此外,TMPA还针对生 成的多提示开发了一种视觉引导的测试时间自适应策略,针 对高熵的不确定预测,自适应地细化每类提示的高置信度 视觉特征表示,使TMPA更好地适用于不同的场景。
-> CoCo-SAM3: Harnessing Concept Conflict in  Open-Vocabulary Semantic Segmentation
+- CoCo-SAM3: Harnessing Concept Conflict in  Open-Vocabulary Semantic Segmentation
 [[paper](./assets/papers/Chen%20等%20-%202026%20-%20CoCo-SAM3%20Harnessing%20Concept%20Conflict%20in%20Open-Vocabulary%20Semantic%20Segmentation.pdf)][[slides](./assets/slides/2026.6组会-蒋明忠%20.pdf)]
 SAM3通过引入提示驱动的掩码生成范式来推进开放词汇语义分割。 然而,在多类开放词汇场景中,由不同类别提示独立生成的掩码缺乏统一的、 类间可比较的证据尺度,往往导致覆盖重叠和竞争不稳定。此外,同一概念的 同义表达往往会激活不一致的语义和空间证据,导致类内漂移,加剧类间冲突, 损害整体推理稳定性。为了解决这些问题,我们提出了CoCo-SAM3(概念冲突 SAM3),它明确地将推理解耦为类内增强和类间竞争。我们的方法首先对同义 提示的证据进行对齐和聚合,以加强概念一致性。然后,它在统一的可比较规 模上执行类间竞争,实现所有候选类之间的直接逐像素比较。这种机制稳定了 多类推理,有效缓解了类间冲突。不需要任何额外的训练.
 ## 2026.5.27
