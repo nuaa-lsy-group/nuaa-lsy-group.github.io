@@ -1,7 +1,7 @@
 # 2026春季学期
 ## 2026.6.10
 - 孙佳家 FedLPA: Local Prior Alignment for Heterogeneous Federated Generalized Category Discovery 
-[[paper](./assets/papers/NeurIPS-2025-fedlpa-local-prior-alignment-for-heterogeneous-federated-generalized-category-discovery-Paper-Conference.pdf)][[slides](./assets/slides/20260603-wzc_20260603130707.pdf)]
+[[paper](./assets/papers/NeurIPS-2025-fedlpa-local-prior-alignment-for-heterogeneous-federated-generalized-category-discovery-Paper-Conference.pdf)][[slides](./assets/slides/2026.6.10%E7%BB%84%E4%BC%9A%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
 > 本文针对联邦广义类别发现中普遍存在的两项不合理假设——已知新类别数量以及类别分布均衡——进行了系统分析，指出这些假设与联邦场景下客户端类别异构、类别不平衡的现实情况存在根本冲突。为此，本文提出一种新的联邦广义类别发现框架——FedLPA，该方法首先通过**置信度引导的局部类别发现（CLCD）构建客户端局部相似图，并结合 Infomap 聚类自动挖掘局部概念结构与类别先验，无需预先知道新类别数量；随后提出局部先验对齐（LPA）机制，通过自蒸馏学习将模型预测分布与由局部概念结构估计得到的经验类别先验进行动态对齐，从而有效缓解联邦场景下严重的类别不平衡与数据异质性问题。同时，基于局部原型构建的实例级一致性约束进一步增强了特征表示的判别能力与鲁棒性。大量实验结果表明，FedLPA 在多个细粒度和通用视觉数据集上均显著优于现有 Fed-GCD 方法，并在未知类别数量未知和非 IID 数据分布条件下展现出优异的泛化能力和稳定性。
 ## 2026.6.3
 - 王子晨 Prototypes as Anchors: Tackling Unseen Noise for online continual learning 
