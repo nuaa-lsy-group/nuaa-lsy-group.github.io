@@ -1,4 +1,7 @@
 # 2026春季学期
+## 2026.6.17
+- 张文良 HGLTR: Hierarchical Knowledge Injection for Calibrating Pre-trained Models in  Long-Tail Recognition [[paper](https://github.com/tiggers23/ALBM.git)][[slides](./assets/slides/20260617-zhangwl.pdf)]
+> 这篇文章针对现有 LBM 将所有概念混在共享概念池中，容易利用背景/非本质概念进行伪相关推理，且在已知类别名但无训练图像的 novel classes 上难以迁移的问题，提出 ALBM：将概念空间重构为“类别 × 属性”的类特定属性概念表，并为每个属性学习 visual prompt 提取属性级视觉特征，使每个类别只基于自身属性概念进行分类，从而提升可解释性、细粒度概念识别能力，以及已知新类名条件下的 base-to-novel 分类迁移能力。
 ## 2026.6.10
 - 孙佳家 FedLPA: Local Prior Alignment for Heterogeneous Federated Generalized Category Discovery 
 [[paper](./assets/papers/NeurIPS-2025-fedlpa-local-prior-alignment-for-heterogeneous-federated-generalized-category-discovery-Paper-Conference.pdf)][[slides](./assets/slides/2026.6.10%E7%BB%84%E4%BC%9A%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
