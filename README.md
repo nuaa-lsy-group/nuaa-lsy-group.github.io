@@ -1,6 +1,6 @@
 # 2026春季学期
 ## 2026.6.17
-- 张文良 Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck  Model with Better Interpretability and Scalabilit [[paper](https://github.com/tiggers23/ALBM.git)][[slides](./assets/slides/20260617-zhangwl.pdf)]
+- 张文良 Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck  Model with Better Interpretability and Scalabilit [[paper](https://github.com/tiggers23/ALBM.git)][[slides](./assets/slides/20260617-zhangwl .pdf)]
 > 这篇文章针对现有 LBM 将所有概念混在共享概念池中，容易利用背景/非本质概念进行伪相关推理，且在已知类别名但无训练图像的 novel classes 上难以迁移的问题，提出 ALBM：将概念空间重构为“类别 × 属性”的类特定属性概念表，并为每个属性学习 visual prompt 提取属性级视觉特征，使每个类别只基于自身属性概念进行分类，从而提升可解释性、细粒度概念识别能力，以及已知新类名条件下的 base-to-novel 分类迁移能力。
 ## 2026.6.10
 - 孙佳家 FedLPA: Local Prior Alignment for Heterogeneous Federated Generalized Category Discovery 
