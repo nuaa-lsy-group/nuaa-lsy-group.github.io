@@ -7,6 +7,10 @@
 >  大家好，本周将和大家分享文章《Concept Bottleneck Models》。本文认为，传统端到端模型直接从输入预测结果，虽然能够获得较好的任务性能，但缺乏基于人类可理解概念进行解释和干预的能力。为此，文章在输入与最终预测之间引入概念瓶颈，构建 \(X\rightarrow C\rightarrow Y\) 的模型结构，并重点研究了不同训练方式下模型的任务准确率、概念准确率以及测试时概念干预的效果。
 
 
+- 王必广 Abductive multi-instance multi-label learning for periodontal disease [[paper](https://www.sciencedirect.com/science/article/pii/S1361841524003797)][[slides](./assets/slides/2026_0922wbg.pdf)]
+>  大家好，本周和大家分享一篇关于神经符号学习与医学图像分类的论文《Abductive Multi-Instance Multi-Label Learning for Periodontal Disease Classification with Prior Domain Knowledge》，发表于 Medical Image Analysis。论文针对传统牙周疾病分类方法难以刻画局部病变与疾病类别之间复杂关系、且难以有效利用医生先验知识的问题，提出了 AB-MIML 方法。该方法将整张口腔图像作为 Bag、局部图像块作为 Instance，利用多实例多标签学习建模局部区域与疾病属性之间的关系，并进一步将医生经验和图像结构信息表示为知识库，通过溯因推理（Abductive Reasoning）对模型产生的伪标签进行校验和修正，使神经网络的感知能力与符号知识的推理能力相结合。汇报中将重点介绍 MIML 建模、知识库构建、溯因学习机制以及实验结果。欢迎大家批评指正，谢谢！
+
+
 ## 2026.9.15
 - 白楚榆 EIA: ENVIRONMENTAL INJECTION ATTACK ON GENERALIST WEB AGENTS FOR PRIVACY LEAKAGE [[paper](https://arxiv.org/pdf/2409.11295)][[slides](./assets/slides/2026.9.15组会%20白楚榆.pdf)]
 > 这篇 ICLR 2025 的论文提出了“环境注入攻击”（EIA），揭示了网页智能体的一种新型隐私泄露风险。攻击者通过在网页 HTML 中植入隐藏恶意元素，诱导智能体在执行任务时，将用户的个人信息（PII）泄露出去。实验显示，针对特定 PII 的窃取成功率最高可达 70%。由于攻击后原任务仍能正常完成，用户难以察觉。论文强调，简单的提示词防御无效，需构建多层次的防御体系。
