@@ -3,6 +3,9 @@
 - 冯朝晨 SAGE: REINFORCEMENT LEARNING FOR SELF-IMPROVING AGENT WITH SKILL LIBRARY [[paper](https://github.com/amazon-science/SAGE.git)][[slides](./assets/slides/fzc0922.pdf)]
 >  这篇 ACL 2026 的论文提出了 SAGE（Skill Augmented GRPO for self-Evolution），面向带有技能库的自改进智能体，通过强化学习同时优化 Skill 的生成、复用与任务执行。其核心是 Sequential Rollout：让智能体连续执行一组相似任务，并把前序任务生成的 Skill 保存到技能库中供后续任务调用；同时设计 Skill-integrated Reward，不仅奖励当前任务成功，还额外奖励“生成的 Skill 能帮助后续任务成功”以及“成功复用已有 Skill”的行为。实验在 AppWorld 上表明，SAGE 相比普通 GRPO 在 Test Normal 上将 SGC 从 51.8% 提升到 60.7%，同时减少约 26% 的交互步数和 59% 的生成 Token。论文说明，相比只优化单任务结果的传统 Agent RL，SAGE 更关注经验能否被沉淀为可复用技能，从而提升智能体的持续自改进能力与执行效率。
 
+- 林鑫科 Concept Bottleneck Models [[paper](https://arxiv.org/abs/2007.04612)][[slides](./assets/slides/20260922林鑫科.pdf)]
+>  大家好，本周将和大家分享文章《Concept Bottleneck Models》。本文认为，传统端到端模型直接从输入预测结果，虽然能够获得较好的任务性能，但缺乏基于人类可理解概念进行解释和干预的能力。为此，文章在输入与最终预测之间引入概念瓶颈，构建 \(X\rightarrow C\rightarrow Y\) 的模型结构，并重点研究了不同训练方式下模型的任务准确率、概念准确率以及测试时概念干预的效果。
+
 
 ## 2026.9.15
 - 白楚榆 EIA: ENVIRONMENTAL INJECTION ATTACK ON GENERALIST WEB AGENTS FOR PRIVACY LEAKAGE [[paper](https://arxiv.org/pdf/2409.11295)][[slides](./assets/slides/2026.9.15组会%20白楚榆.pdf)]
