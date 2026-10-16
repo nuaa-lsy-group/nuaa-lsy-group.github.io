@@ -1,5 +1,10 @@
 # 2026年秋季学期
 ## 2026.9.22
+- 蒋明忠 ZoomEarth: Active Perception for Ultra-High-Resolution Geospatial  Vision-Language Tasks [[paper](./slides/%E8%92%8B%E6%98%8E%E5%BF%A0-2026.10.pdf)][[slides](./assets/papers/Liu%20%E7%AD%89%20-%202026%20-%20ZoomEarth%20Active%20Perception%20for%20Ultra-High-Resolution%20Geospatial%20Vision-Language%20Tasks.pdf)]
+>  针对超高分辨率遥感图像中传统视觉语言模型存在的细节信息丢失、视觉冗余严重以及缺乏主动感知能力等问题，提出了一种基于主动感知（Active Perception）的遥感视觉语言框架 ZoomEarth。该方法模仿人类“先整体观察、再局部放大”的视觉认知过程：首先将超高分辨率遥感图像下采样，利用多模态大模型获取全局场景信息；随后根据用户问题自主判断是否需要进一步观察，并预测感兴趣区域（ROI）的边界框，从原始高分辨率图像中裁剪对应区域，重新输入模型进行精细感知与推理。在训练方面，作者构建了包含17类视觉语言任务的 LRS-GRO 数据集，并以 Qwen2.5-VL-3B 为基础模型，采用监督微调（SFT）与 GRPO 强化学习的两阶段训练策略，同时设计区域引导奖励（Region-Guided Reward），缓解传统 IoU 奖励在目标定位偏差较大时反馈稀疏的问题。实验表明，该方法能够有效提升超高分辨率遥感图像的视觉问答、目标定位和细粒度理解能力，并可通过工具调用扩展至图像分割、去云和图像编辑等下游任务。其核心贡献是将传统的被动式遥感图像理解转变为由模型自主决定“看哪里、是否放大、如何进一步观察”的主动感知范式。
+
+
+## 2026.9.22
 - 冯朝晨 SAGE: REINFORCEMENT LEARNING FOR SELF-IMPROVING AGENT WITH SKILL LIBRARY [[paper](https://github.com/amazon-science/SAGE.git)][[slides](./assets/slides/fzc0922.pdf)]
 >  这篇 ACL 2026 的论文提出了 SAGE（Skill Augmented GRPO for self-Evolution），面向带有技能库的自改进智能体，通过强化学习同时优化 Skill 的生成、复用与任务执行。其核心是 Sequential Rollout：让智能体连续执行一组相似任务，并把前序任务生成的 Skill 保存到技能库中供后续任务调用；同时设计 Skill-integrated Reward，不仅奖励当前任务成功，还额外奖励“生成的 Skill 能帮助后续任务成功”以及“成功复用已有 Skill”的行为。实验在 AppWorld 上表明，SAGE 相比普通 GRPO 在 Test Normal 上将 SGC 从 51.8% 提升到 60.7%，同时减少约 26% 的交互步数和 59% 的生成 Token。论文说明，相比只优化单任务结果的传统 Agent RL，SAGE 更关注经验能否被沉淀为可复用技能，从而提升智能体的持续自改进能力与执行效率。
 
