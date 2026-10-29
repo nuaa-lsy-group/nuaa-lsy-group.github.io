@@ -1,9 +1,11 @@
 # 2026年秋季学期
 ## 2026.10.27
-- 卢昕怡 Handling Spatial-Temporal Data Heterogeneity for Federated Continual Learning via Tail Anchor [[paper](./assets/papers/Yu_Handling_Spatial-Temporal_Data_Heterogeneity_for_Federated_Continual_Learning_via_Tail_CVPR_2025_paper.pdf)][[slides](./assets/slides/20261027-lxy.pdf)]
-> 第一篇FedTA 面向联邦持续学习（FCL）中空间-时间数据异质性引发的灾难性遗忘问题，将遗忘解耦为参数遗忘与输出遗忘。方法上冻结所有客户端共享的预训练 ViT 以消除参数遗忘，并首次引入可学习的尾部锚点与冻结特征混合，通过对比损失将特征锚定到服务器选定的固定全局原型，从而抑制输出遗忘；同时设计输入增强、选择性输入知识融合和最佳全局原型选择来提升下游性能与跨客户端知识共享。
-> 第二篇FedMGP则更关注个性化联邦持续学习（PFCL）下的时空灾难性遗忘与本地个性化挑战。该方法首次显式构建多粒度知识空间，通过使用粗粒度全局提示作用于输入嵌入层，以负责时空不变的粗粒度知识，便于服务器聚合，以对抗空间遗忘；同时使用细粒度局部提示作用于MSA层，以负责类级别的个性化知识，用于对抗时间遗忘并实现本地个性化。
-> 第三和第四篇是以往的FCL方法（MFCL和TARGET），主要思路都是无数据下的旧样本生成，与当前新样本一起混合训练，以缓解遗忘。MFCL主要提出把生成式回放从客户端上移到服务器，且生成器训练完全不接触原始数据，以无数据的方式进行生成器训练，合成旧任务样本并下发给客户端；客户端训练时混合真实数据与合成数据，通过拆分分类头学新类、冻结骨干只调分类头、重要性加权特征蒸馏来兼顾塑性与稳定性。TARGET也是相似的思想，基于持续学习的方法往往需要额外数据集或存储旧任务真实数据，在联邦的隐私敏感场景下不可行，因此服务器利用旧全局模型无示例地生成模拟全局数据分布的合成数据，客户端再用这些合成旧数据与当前真实新数据联合全局教师模型进行知识蒸馏，以实现缓解遗忘和保护隐私。
+- 卢昕怡 Handling Spatial-Temporal Data Heterogeneity for Federated Continual Learning via Tail Anchor [[paper1](./assets/papers/Yu_Handling_Spatial-Temporal_Data_Heterogeneity_for_Federated_Continual_Learning_via_Tail_CVPR_2025_paper.pdf)][[paper2](./assets/papers/Personalized_Federated_Continual_Learning.pdf)][[paper3](./assets/papers/NIPS2023_A_Data_Free_Approach_to_.pdf)][[paper4](./assets/papers/TARGET.pdf)][[slides](./assets/slides/20261027-lxy.pdf)]
+>  第一篇FedTA 面向联邦持续学习（FCL）中空间-时间数据异质性引发的灾难性遗忘问题，将遗忘解耦为参数遗忘与输出遗忘。方法上冻结所有客户端共享的预训练 ViT 以消除参数遗忘，并首次引入可学习的尾部锚点与冻结特征混合，通过对比损失将特征锚定到服务器选定的固定全局原型，从而抑制输出遗忘；同时设计输入增强、选择性输入知识融合和最佳全局原型选择来提升下游性能与跨客户端知识共享。
+> 
+>  第二篇FedMGP则更关注个性化联邦持续学习（PFCL）下的时空灾难性遗忘与本地个性化挑战。该方法首次显式构建多粒度知识空间，通过使用粗粒度全局提示作用于输入嵌入层，以负责时空不变的粗粒度知识，便于服务器聚合，以对抗空间遗忘；同时使用细粒度局部提示作用于MSA层，以负责类级别的个性化知识，用于对抗时间遗忘并实现本地个性化。
+> 
+>  第三和第四篇是以往的FCL方法（MFCL和TARGET），主要思路都是无数据下的旧样本生成，与当前新样本一起混合训练，以缓解遗忘。MFCL主要提出把生成式回放从客户端上移到服务器，且生成器训练完全不接触原始数据，以无数据的方式进行生成器训练，合成旧任务样本并下发给客户端；客户端训练时混合真实数据与合成数据，通过拆分分类头学新类、冻结骨干只调分类头、重要性加权特征蒸馏来兼顾塑性与稳定性。TARGET也是相似的思想，基于持续学习的方法往往需要额外数据集或存储旧任务真实数据，在联邦的隐私敏感场景下不可行，因此服务器利用旧全局模型无示例地生成模拟全局数据分布的合成数据，客户端再用这些合成旧数据与当前真实新数据联合全局教师模型进行知识蒸馏，以实现缓解遗忘和保护隐私。
 
 ## 2026.10.20
 - 孙佳家 pFedMMA:Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models [[paper](./assets/papers/pFedMMA%20-Personalized%20Federated%20Fine-Tuning%20with%20Multi-Modal%20Adapter%20for%20Vision-Language%20Models.pdf)][[slides](./assets/slides/2026.10.20%E7%BB%84%E4%BC%9A%E5%AD%99%E4%BD%B3%E5%AE%B6.pptx)]
