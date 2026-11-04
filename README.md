@@ -1,4 +1,7 @@
 # 2026年秋季学期
+## 2026.11.03
+- 蒋塾英 Learnware and AI Model Management System [[paper](https://arxiv.org/abs/2609.11656)][[slides](./assets/slides/20261103-jiangsy.pdf)]
+> 《Learnware and AI Model Management System》是南京大学周志华教授于 2026 年发表在 arXiv 上的一篇论文。该论文针对现有 AI 模型管理主要停留在模型存储与检索层面，难以有效识别、复用和组合不同开发者训练的模型的问题，提出了基于 Learnware（学件）的 AI 模型管理范式。其核心思想是将模型管理的基本单元从单一模型升级为 Learnware，即 Learnware = Model + Specification：通过机器学习方法为训练好的模型生成规格说明（Specification），在不暴露模型训练数据的情况下描述模型的功能特征，使不同模型能够在统一参考标准下进行比较和识别。在此基础上，论文提出 Learnware Dock System（LDS），支持面向用户任务的模型检索、复用与组合，并进一步将规格说明作为模型间的协作协议，使独立开发的模型乃至智能体能够实现协同工作。该研究为跨开发者、跨任务的模型资源管理与复用提供了一种新的思路，也为构建可持续扩展的 AI 模型生态系统提供了理论与系统框架。
 ## 2026.10.27
 - 卢昕怡 Handling Spatial-Temporal Data Heterogeneity for Federated Continual Learning via Tail Anchor [[paper1](./assets/papers/Yu_Handling_Spatial-Temporal_Data_Heterogeneity_for_Federated_Continual_Learning_via_Tail_CVPR_2025_paper.pdf)][[paper2](./assets/papers/Personalized_Federated_Continual_Learning.pdf)][[paper3](./assets/papers/NIPS2023_A_Data_Free_Approach_to_.pdf)][[paper4](./assets/papers/TARGET.pdf)][[slides](./assets/slides/20261027-lxy.pdf)]
 >  第一篇FedTA 面向联邦持续学习（FCL）中空间-时间数据异质性引发的灾难性遗忘问题，将遗忘解耦为参数遗忘与输出遗忘。方法上冻结所有客户端共享的预训练 ViT 以消除参数遗忘，并首次引入可学习的尾部锚点与冻结特征混合，通过对比损失将特征锚定到服务器选定的固定全局原型，从而抑制输出遗忘；同时设计输入增强、选择性输入知识融合和最佳全局原型选择来提升下游性能与跨客户端知识共享。
