@@ -1,4 +1,8 @@
 # 2026年秋季学期
+## 2026.11.10
+- 王必广 Knowledge-Enhanced Historical Document Segmentation and Recognition [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28683)][[slides](./assets/slides/20261110_wbg.pdf)]
+> 本次汇报主要包括论文解读与研究问题探索两部分。首先介绍 AAAI 2024 论文《Knowledge-Enhanced Historical Document Segmentation and Recognition》。该论文针对历史文档 OCR 中字符粘连、版面复杂以及字符级标注数据匮乏等问题，提出知识增强的分割与识别框架 KESAR。方法通过结构知识修正伪字符框，利用溯因匹配从文本行级标注中构建字符级训练样本，并通过过分割与重组合算法实现分割模型和识别模型的联合优化，在缺少充分字符级标注的情况下提升历史文档识别性能。 随后围绕 ABL 中的溯因歧义问题展开研究。传统 ABL 利用知识规则筛选候选标签，但满足规则的候选不一定是真实标签，最终选择仍依赖感知模型。A³BL 通过软标签保留多个候选的信息，缓解了传统硬标签选择的问题，但候选权重仍依赖感知模型的预测，可能导致初始错误偏好在迭代训练中不断被强化。针对这一问题，设计了初始错误偏好和监督关系分布偏斜两组实验，验证错误伪标签的自强化现象，以及在图像类别保持均衡、仅改变监督关系分布时模型识别与泛化性能的下降。最后讨论如何引入额外约束进一步消除候选歧义，减少溯因过程对感知模型初始预测的依赖。
+
 ## 2026.11.03
 - 蒋塾英 Learnware and AI Model Management System [[paper](https://arxiv.org/abs/2609.11656)][[slides](./assets/slides/20261103-jiangsy.pdf)]
 > 《Learnware and AI Model Management System》是南京大学周志华教授于 2026 年发表在 arXiv 上的一篇论文。该论文针对现有 AI 模型管理主要停留在模型存储与检索层面，难以有效识别、复用和组合不同开发者训练的模型的问题，提出了基于 Learnware（学件）的 AI 模型管理范式。其核心思想是将模型管理的基本单元从单一模型升级为 Learnware，即 Learnware = Model + Specification：通过机器学习方法为训练好的模型生成规格说明（Specification），在不暴露模型训练数据的情况下描述模型的功能特征，使不同模型能够在统一参考标准下进行比较和识别。在此基础上，论文提出 Learnware Dock System（LDS），支持面向用户任务的模型检索、复用与组合，并进一步将规格说明作为模型间的协作协议，使独立开发的模型乃至智能体能够实现协同工作。该研究为跨开发者、跨任务的模型资源管理与复用提供了一种新的思路，也为构建可持续扩展的 AI 模型生态系统提供了理论与系统框架。
